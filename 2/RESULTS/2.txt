@@ -1,0 +1,4019 @@
+Testing Repo CMPT127-1157-sinanl/2 Lab 2 Task 2 at 2015-12-04 12:02:29.414379
+(make -f /home/vaughan/lab/2/Makefile.test t2 STUDENT="sinanl" LAB="/home/vaughan/lab/2" REPO="/home/vaughan/CMPT127-1157-sinanl/2" SANDBOX="/home/build/sandbox.sinanl.NjbhJD"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/CMPT127-1157-sinanl/2/identical.c .
+	gcc -Wall -std=c99 -o t2 identical.c  /home/vaughan/lab/2/test_identical.c -lm
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	Zero-length arrays gave correct answer.
+	A: [ 86 77 15 93 ]
+	B: [ 86 77 15 93 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 92 49 21 62 27 90 59 ]
+	B: [ 92 49 21 62 27 90 59 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 40 26 72 36 11 68 67 ]
+	B: [ 40 26 72 36 11 68 67 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 30 62 23 ]
+	B: [ 30 62 23 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 29 2 22 58 69 67 93 56 11 42 29 73 21 19 84 37 ]
+	B: [ 29 2 22 58 15 67 93 56 11 42 29 73 21 19 84 37 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 13 26 91 80 56 73 62 70 96 81 5 ]
+	B: [ 13 26 91 80 56 73 62 70 96 81 5 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 27 36 5 46 29 ]
+	B: [ 27 36 5 46 29 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 24 95 82 45 14 67 34 64 43 50 87 8 76 78 88 84 3 51 ]
+	B: [ 24 32 82 45 14 67 34 64 43 50 87 8 76 78 88 84 3 51 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 76 ]
+	B: [ 12 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 86 94 39 95 70 34 78 ]
+	B: [ 86 94 39 95 70 34 78 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 97 2 ]
+	B: [ 97 2 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 52 56 1 80 86 41 65 89 44 19 40 29 31 ]
+	B: [ 52 56 1 80 86 41 65 89 44 19 40 29 31 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 71 81 75 9 27 67 56 97 53 86 65 6 83 19 24 28 71 32 ]
+	B: [ 71 81 75 9 27 67 56 97 53 86 65 6 83 19 24 28 71 32 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 19 70 68 8 ]
+	B: [ 19 70 68 8 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 49 ]
+	B: [ 18 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 46 51 21 55 79 88 ]
+	B: [ 46 51 41 55 79 88 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 93 0 34 64 24 14 87 56 43 91 27 ]
+	B: [ 93 0 34 64 24 14 87 56 43 91 27 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 36 32 51 37 28 75 7 74 21 58 95 29 37 35 93 18 28 43 11 28 ]
+	B: [ 36 32 51 37 28 75 7 74 21 58 95 29 37 35 93 18 28 43 11 28 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 4 43 63 13 38 6 40 4 18 28 88 69 17 17 96 24 43 ]
+	B: [ 4 43 63 13 38 6 40 4 18 28 88 69 17 17 96 90 43 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 72 25 44 90 5 39 54 86 69 82 42 64 97 7 55 4 48 11 22 28 ]
+	B: [ 72 25 44 90 5 39 54 86 69 82 42 64 97 7 55 4 48 11 22 28 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 46 68 40 22 ]
+	B: [ 46 68 40 22 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 5 1 61 30 78 5 20 36 44 26 22 ]
+	B: [ 5 1 61 30 78 5 20 36 44 26 22 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 16 82 58 24 37 62 24 0 36 ]
+	B: [ 16 82 58 24 37 79 24 0 36 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 68 71 73 31 81 30 33 94 60 63 99 ]
+	B: [ 68 71 73 31 81 30 33 94 60 63 99 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 96 59 73 13 68 90 95 26 66 84 40 90 84 76 42 36 7 45 56 79 ]
+	B: [ 96 59 73 13 68 90 95 12 66 84 40 90 84 76 42 36 7 45 56 79 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 72 59 9 36 10 42 87 6 1 ]
+	B: [ 72 59 9 36 10 42 87 6 1 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 21 55 19 99 21 4 39 11 40 67 5 28 27 ]
+	B: [ 21 55 19 99 21 4 39 11 40 67 58 28 27 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 24 ]
+	B: [ 96 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 30 84 ]
+	B: [ 72 84 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 25 85 22 99 40 42 98 13 98 90 24 ]
+	B: [ 25 81 22 99 40 42 98 13 98 90 24 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 36 32 55 94 4 79 69 73 76 50 55 60 42 79 84 93 5 21 67 4 ]
+	B: [ 36 32 55 94 4 79 69 73 76 50 55 60 42 79 84 93 5 21 67 4 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 54 26 ]
+	B: [ 54 26 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 2 2 6 84 21 ]
+	B: [ 2 2 6 28 21 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 72 8 58 98 36 8 53 48 3 33 ]
+	B: [ 72 8 58 98 36 8 53 48 3 33 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 90 54 67 46 68 29 0 46 88 ]
+	B: [ 90 54 67 46 68 29 0 46 88 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 90 3 33 63 97 53 92 86 25 52 ]
+	B: [ 90 3 33 63 97 88 92 86 25 52 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 29 36 60 14 21 60 4 28 27 50 48 56 2 94 97 99 43 39 ]
+	B: [ 29 36 60 14 21 60 4 28 27 50 48 56 3 94 97 99 43 39 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 81 ]
+	B: [ 81 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 59 51 35 34 39 92 15 27 4 29 49 64 85 29 43 35 77 0 38 ]
+	B: [ 59 51 35 34 39 92 15 27 4 29 49 64 85 29 43 35 77 0 38 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 89 67 88 92 95 43 44 29 90 82 ]
+	B: [ 89 69 88 92 95 43 44 29 90 82 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 32 61 42 60 17 23 61 ]
+	B: [ 32 61 42 60 17 23 61 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 90 25 96 67 77 34 90 26 24 57 ]
+	B: [ 90 25 96 67 77 34 90 26 5 57 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 12 86 0 46 26 94 16 52 78 29 46 90 47 70 51 80 31 93 57 ]
+	B: [ 12 86 0 46 26 94 16 52 78 29 46 90 47 70 51 80 31 93 57 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 86 14 55 12 90 12 79 10 69 89 74 55 41 ]
+	B: [ 86 14 55 12 90 12 79 10 69 89 87 55 41 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 38 66 70 84 56 17 6 60 49 ]
+	B: [ 38 66 70 84 56 17 6 60 49 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 59 17 18 45 83 73 ]
+	B: [ 59 17 18 45 83 37 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 83 7 78 57 14 71 29 0 59 18 ]
+	B: [ 83 7 78 57 14 88 29 0 59 18 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 33 57 81 93 58 70 99 17 39 69 63 22 94 73 47 ]
+	B: [ 33 57 81 93 58 70 99 17 39 69 63 22 94 73 47 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 82 90 92 ]
+	B: [ 82 90 92 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 15 21 57 74 91 47 51 31 21 37 40 54 30 98 25 81 16 16 ]
+	B: [ 15 21 57 39 91 47 51 31 21 37 40 54 30 98 25 81 16 16 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 4 38 80 18 21 70 62 12 79 77 85 36 4 76 83 7 59 ]
+	B: [ 4 38 80 18 21 70 62 12 79 77 85 36 4 76 83 7 59 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 99 11 27 50 36 ]
+	B: [ 99 11 27 5 36 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 49 44 11 5 ]
+	B: [ 49 44 11 75 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 14 89 68 93 18 5 82 22 82 17 30 93 74 26 93 86 ]
+	B: [ 14 89 68 93 18 5 82 22 82 17 30 93 74 26 93 86 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 74 14 13 79 ]
+	B: [ 74 14 13 79 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 75 88 19 ]
+	B: [ 75 88 94 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 46 35 37 91 53 43 73 28 25 91 10 18 17 36 63 55 90 58 ]
+	B: [ 46 35 37 91 53 43 71 28 25 91 10 18 17 36 63 55 90 58 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 33 85 ]
+	B: [ 33 85 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 4 51 5 50 68 3 85 6 95 39 49 20 67 26 ]
+	B: [ 4 51 5 50 68 3 85 6 95 39 49 20 67 26 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 96 81 65 60 36 55 70 18 11 42 32 96 79 21 70 84 72 27 ]
+	B: [ 96 81 65 60 36 55 70 18 11 42 83 96 79 21 70 84 72 27 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 98 30 63 47 50 30 73 14 59 22 47 24 82 ]
+	B: [ 98 30 63 47 50 30 73 14 59 22 47 24 82 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 4 54 43 98 86 40 78 59 62 62 83 41 48 ]
+	B: [ 4 54 43 98 86 40 78 59 62 62 83 41 48 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 72 22 54 35 21 ]
+	B: [ 72 22 54 35 21 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 47 71 76 69 18 1 ]
+	B: [ 47 71 76 69 18 1 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 33 7 59 28 6 97 20 84 8 34 98 91 76 98 ]
+	B: [ 33 7 59 28 6 97 20 84 8 34 98 91 76 98 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 71 89 59 6 10 16 24 9 39 0 78 9 53 ]
+	B: [ 71 89 59 6 10 16 24 9 39 0 78 9 53 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 38 89 26 67 47 23 87 31 32 22 81 75 50 79 90 ]
+	B: [ 31 89 26 67 47 23 87 31 32 22 81 75 50 79 90 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 57 94 81 81 3 20 33 82 81 87 15 96 25 4 ]
+	B: [ 57 94 81 81 3 20 33 82 51 87 15 96 25 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 32 34 81 6 15 57 8 95 99 62 97 83 76 54 77 9 87 32 ]
+	B: [ 32 34 81 6 15 57 8 95 99 62 97 83 76 54 77 66 87 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 60 82 11 85 ]
+	B: [ 60 30 11 85 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 83 14 76 16 20 92 25 28 39 25 90 ]
+	B: [ 83 18 76 16 20 92 25 28 39 25 90 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 37 28 82 21 ]
+	B: [ 37 28 82 88 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 15 70 37 53 8 22 ]
+	B: [ 15 70 37 53 8 22 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 57 97 27 26 69 71 51 49 10 28 39 ]
+	B: [ 57 97 27 26 69 71 51 49 93 28 39 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 90 76 99 52 31 87 77 99 57 66 52 17 41 35 68 98 84 95 ]
+	B: [ 90 76 99 52 31 87 77 99 57 66 52 66 41 35 68 98 84 95 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 54 28 8 93 78 97 55 72 74 ]
+	B: [ 54 28 8 93 78 97 55 72 74 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 25 ]
+	B: [ 25 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 12 27 82 21 ]
+	B: [ 12 27 82 21 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 39 34 21 59 85 57 54 61 62 72 41 16 52 50 62 ]
+	B: [ 39 34 21 59 85 57 54 61 62 72 41 16 52 50 17 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 73 15 6 51 64 90 63 91 72 37 37 59 28 71 80 ]
+	B: [ 73 15 6 51 64 90 63 91 72 37 37 59 28 71 80 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 90 41 70 52 65 11 69 17 61 83 51 12 0 6 38 67 64 ]
+	B: [ 90 41 70 52 65 11 69 17 61 83 51 12 0 6 38 67 64 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 54 4 75 79 41 12 38 69 36 70 56 44 60 ]
+	B: [ 54 4 75 79 41 12 38 69 36 70 56 44 60 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 65 14 26 86 83 39 69 35 52 21 93 90 89 9 31 ]
+	B: [ 65 14 26 86 83 39 69 35 52 21 93 90 89 9 31 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 35 48 95 77 13 ]
+	B: [ 35 48 95 77 13 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 49 55 55 93 68 56 60 33 23 86 71 58 77 40 45 81 61 90 23 ]
+	B: [ 49 55 55 93 68 56 60 33 23 86 71 58 77 40 45 54 61 90 23 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 64 42 24 59 19 89 44 69 38 51 76 83 19 33 43 4 ]
+	B: [ 64 42 24 59 19 89 44 69 38 51 76 83 19 75 43 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 11 67 12 92 29 2 68 ]
+	B: [ 11 67 12 92 29 2 68 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 74 7 18 ]
+	B: [ 74 7 77 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 72 73 57 62 25 33 97 96 ]
+	B: [ 72 73 57 62 25 53 97 96 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 74 80 93 85 48 5 30 ]
+	B: [ 74 80 93 85 48 5 30 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 98 60 62 24 19 80 41 2 10 80 26 83 89 40 8 23 38 57 93 31 ]
+	B: [ 5 60 62 24 19 80 41 2 10 80 26 83 89 40 8 23 38 57 93 31 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 13 91 38 70 21 67 29 71 80 43 95 ]
+	B: [ 13 91 38 70 21 67 29 71 80 43 95 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 88 54 86 69 32 ]
+	B: [ 88 54 86 69 32 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 73 30 33 63 87 79 94 49 99 51 39 ]
+	B: [ 73 30 33 63 30 79 94 49 99 51 39 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 15 49 15 86 81 11 34 ]
+	B: [ 15 49 15 86 81 11 34 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 22 87 73 43 19 42 54 44 ]
+	B: [ 22 87 73 59 19 42 54 44 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 18 53 12 69 ]
+	B: [ 18 53 12 69 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 33 99 34 19 15 ]
+	B: [ 33 99 34 19 15 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 53 69 50 87 2 37 62 89 ]
+	B: [ 53 69 50 87 2 60 62 89 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 11 57 29 3 16 ]
+	B: [ 11 22 29 3 16 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 43 79 61 28 78 47 ]
+	B: [ 43 79 61 28 78 82 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 99 51 89 86 53 26 48 94 ]
+	B: [ 99 51 7 86 53 26 48 94 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 17 64 21 20 80 66 94 54 23 37 33 84 17 ]
+	B: [ 17 64 21 20 80 66 94 54 17 37 33 84 17 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 65 56 8 69 45 95 22 71 95 69 ]
+	B: [ 65 56 8 69 45 95 22 71 95 69 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 76 52 ]
+	B: [ 76 52 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 25 ]
+	B: [ 25 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 91 89 27 66 78 12 50 96 24 33 13 86 99 ]
+	B: [ 91 89 27 66 78 68 50 96 24 33 13 86 99 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 41 42 39 37 63 98 90 39 2 13 31 28 57 4 71 46 ]
+	B: [ 41 42 39 37 63 98 90 39 2 13 31 28 57 4 71 46 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 25 95 40 21 72 26 34 58 25 56 52 45 72 46 39 11 83 3 61 ]
+	B: [ 25 95 40 21 72 26 34 58 25 56 52 45 72 46 39 11 83 3 61 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 16 39 74 ]
+	B: [ 16 30 74 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 94 13 57 19 60 50 92 32 ]
+	B: [ 94 13 57 19 60 50 92 90 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 35 95 98 7 41 37 70 76 40 84 1 83 0 92 ]
+	B: [ 35 95 98 7 41 37 70 76 40 84 1 83 0 92 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 40 39 63 35 4 73 6 64 23 51 49 51 30 39 4 65 86 ]
+	B: [ 40 39 63 35 4 73 6 64 79 51 49 51 30 39 4 65 86 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 47 7 84 31 61 19 31 53 28 27 94 19 ]
+	B: [ 47 7 84 31 61 19 31 53 28 27 94 19 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 23 68 ]
+	B: [ 23 68 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 43 38 88 94 20 80 98 86 18 52 63 98 95 10 5 79 42 66 98 25 ]
+	B: [ 43 38 88 94 20 80 98 86 18 52 63 98 95 10 5 79 42 66 53 25 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 97 48 47 72 16 86 12 ]
+	B: [ 97 48 47 72 16 86 12 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 0 53 97 32 3 35 51 7 98 49 54 61 6 34 3 25 84 28 ]
+	B: [ 0 53 97 32 3 35 51 7 98 49 54 61 6 34 3 25 84 28 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 33 15 60 81 ]
+	B: [ 33 97 60 81 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 97 ]
+	B: [ 49 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 79 34 16 14 85 75 65 86 30 26 92 16 29 69 ]
+	B: [ 79 66 16 14 85 75 65 86 30 26 92 16 29 69 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 95 33 28 76 47 13 26 0 62 86 29 63 0 8 97 16 ]
+	B: [ 95 33 28 76 47 13 26 0 62 86 29 63 0 8 97 16 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 44 40 20 ]
+	B: [ 65 40 20 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 99 34 46 8 53 62 3 86 42 32 34 7 10 34 69 ]
+	B: [ 99 34 46 8 53 84 3 86 42 32 34 7 10 34 69 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 24 82 65 51 16 61 43 37 87 61 2 81 60 88 79 20 41 ]
+	B: [ 24 82 65 51 16 61 43 37 87 61 2 81 60 88 79 20 41 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 28 35 8 62 42 ]
+	B: [ 28 63 8 62 42 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 11 0 15 87 34 32 90 ]
+	B: [ 11 0 15 87 33 32 90 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 80 94 93 13 54 82 44 75 23 38 51 51 73 11 65 68 81 13 83 99 ]
+	B: [ 80 94 93 13 54 82 44 75 23 38 51 51 73 11 65 68 81 13 83 99 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 14 64 69 46 7 72 91 40 11 23 87 57 36 93 39 81 ]
+	B: [ 14 64 71 46 7 72 91 40 11 23 87 57 36 93 39 81 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 18 96 34 83 64 67 97 0 67 74 35 33 ]
+	B: [ 18 96 34 83 64 67 97 0 67 32 35 33 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 29 23 90 92 47 29 49 35 22 40 ]
+	B: [ 29 23 90 55 47 29 49 35 22 40 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 66 25 36 53 60 52 20 57 4 87 83 40 21 26 97 5 27 78 28 69 ]
+	B: [ 66 25 36 53 60 52 20 98 4 87 83 40 21 26 97 5 27 78 28 69 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 63 ]
+	B: [ 63 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 83 ]
+	B: [ 23 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 92 11 35 ]
+	B: [ 92 11 35 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 8 62 68 95 ]
+	B: [ 68 62 68 95 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 9 73 3 87 54 73 57 81 23 29 96 44 42 80 12 9 55 ]
+	B: [ 9 73 3 87 54 73 57 81 23 29 96 44 42 80 12 9 55 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 66 34 59 81 42 73 1 38 71 13 58 99 22 84 55 ]
+	B: [ 66 34 59 81 42 73 1 38 71 13 58 99 22 84 55 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 80 71 23 3 0 20 0 42 52 12 4 ]
+	B: [ 80 71 23 3 0 20 0 42 52 12 4 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 58 25 94 17 58 36 90 60 26 14 73 37 65 48 21 20 9 63 0 32 ]
+	B: [ 58 25 94 17 33 36 90 60 26 14 73 37 65 48 21 20 9 63 0 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 56 27 10 68 31 69 28 41 46 74 58 5 10 1 65 89 67 90 26 ]
+	B: [ 56 27 10 68 31 69 28 41 99 74 58 5 10 1 65 89 67 90 26 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 0 62 57 32 48 61 ]
+	B: [ 0 62 57 32 48 61 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 69 97 69 38 28 39 18 70 ]
+	B: [ 69 97 69 38 28 39 18 70 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 80 42 54 33 7 43 0 50 21 85 88 20 90 ]
+	B: [ 80 42 54 33 7 47 0 50 21 85 88 20 90 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 83 61 94 42 30 91 ]
+	B: [ 83 61 94 42 30 91 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 20 ]
+	B: [ 42 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 30 22 34 85 8 94 80 8 44 2 45 84 22 ]
+	B: [ 30 22 34 85 8 94 80 8 44 2 45 84 22 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 57 35 2 92 48 96 ]
+	B: [ 40 35 2 92 48 96 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 51 12 56 89 54 48 72 28 82 57 ]
+	B: [ 51 12 56 89 54 48 37 28 82 57 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 20 39 94 5 14 82 82 23 69 36 15 17 84 53 99 24 54 50 ]
+	B: [ 20 39 94 5 14 82 92 23 69 36 15 17 84 53 99 24 54 50 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 58 64 23 ]
+	B: [ 58 64 23 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 11 69 ]
+	B: [ 90 69 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 55 47 16 ]
+	B: [ 55 47 16 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 39 58 ]
+	B: [ 39 58 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 75 1 11 74 78 65 77 ]
+	B: [ 69 1 11 74 78 65 77 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 34 33 ]
+	B: [ 34 6 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 97 16 60 39 70 67 86 86 8 67 77 66 36 35 93 37 46 19 67 12 ]
+	B: [ 97 16 60 39 70 67 86 86 8 67 77 66 36 35 40 37 46 19 67 12 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 95 74 50 31 2 8 30 51 25 42 90 47 61 76 34 69 95 63 ]
+	B: [ 95 74 50 31 2 8 30 51 25 42 90 47 61 76 34 69 95 63 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 51 80 20 97 0 88 61 96 74 1 14 69 ]
+	B: [ 51 80 20 97 52 88 61 96 74 1 14 69 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 25 82 33 ]
+	B: [ 25 82 23 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 90 51 35 60 46 99 47 29 2 28 ]
+	B: [ 90 51 35 60 46 99 47 29 2 28 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 28 89 13 76 63 66 90 84 94 59 36 76 84 71 9 38 0 84 39 90 ]
+	B: [ 28 89 13 76 63 66 90 84 94 59 36 76 84 71 9 38 0 84 39 90 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 50 81 26 50 62 28 78 64 79 58 53 44 34 69 11 77 ]
+	B: [ 50 81 26 50 62 28 78 64 79 58 53 44 34 69 11 77 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 36 42 34 72 65 95 10 65 32 49 7 67 76 58 1 2 60 63 ]
+	B: [ 36 42 34 72 65 95 10 65 27 49 7 67 76 58 1 2 60 63 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 96 33 58 30 54 69 7 59 27 95 1 13 67 18 60 ]
+	B: [ 96 33 58 30 54 69 7 59 27 95 1 13 67 18 60 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 92 31 43 12 7 53 13 62 13 28 96 51 56 10 99 41 ]
+	B: [ 92 31 43 12 7 53 13 62 13 28 96 51 56 10 99 41 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 95 90 ]
+	B: [ 95 90 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 69 36 8 82 4 26 95 33 14 87 64 57 51 24 10 ]
+	B: [ 69 36 8 82 4 26 95 33 23 87 64 57 51 24 10 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 34 26 1 45 25 94 66 6 89 56 47 95 26 84 ]
+	B: [ 34 26 1 45 25 94 66 6 89 56 47 95 26 84 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 40 ]
+	B: [ 73 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 95 90 5 46 66 67 63 4 90 ]
+	B: [ 95 90 5 46 66 67 63 4 68 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 35 93 ]
+	B: [ 35 93 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 51 44 ]
+	B: [ 51 91 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 35 47 48 75 81 56 0 29 51 ]
+	B: [ 35 47 48 49 81 56 0 29 51 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 1 ]
+	B: [ 43 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 55 11 33 42 56 40 96 59 36 58 10 28 46 ]
+	B: [ 55 11 33 42 56 40 96 59 36 58 10 28 46 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 94 24 56 50 25 85 53 19 71 55 80 24 19 96 67 44 ]
+	B: [ 94 24 56 50 25 85 53 19 71 55 80 24 19 96 67 44 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 29 46 86 70 94 45 58 52 8 86 98 ]
+	B: [ 29 46 86 70 94 45 58 52 8 86 98 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 44 30 21 47 7 58 0 78 29 7 58 53 79 7 ]
+	B: [ 44 30 21 47 7 58 0 78 29 7 58 10 79 7 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 4 8 40 ]
+	B: [ 4 86 40 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 6 46 23 4 51 37 ]
+	B: [ 6 46 23 4 51 37 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 10 48 92 69 0 71 50 8 81 56 87 88 28 62 ]
+	B: [ 10 48 92 69 0 71 50 8 81 56 87 88 28 62 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 18 59 23 45 ]
+	B: [ 18 82 23 45 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 7 57 29 11 94 30 44 57 78 37 26 78 60 ]
+	B: [ 7 57 29 11 41 30 44 57 78 37 26 78 60 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 25 82 65 39 33 ]
+	B: [ 25 82 65 44 33 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 55 10 85 89 ]
+	B: [ 55 10 85 89 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 46 12 55 93 42 ]
+	B: [ 20 12 55 93 42 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 28 50 49 56 37 42 41 14 24 58 ]
+	B: [ 28 50 49 56 37 42 41 14 24 64 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 81 19 16 18 60 99 63 6 63 18 99 5 70 1 77 ]
+	B: [ 81 19 16 18 60 99 63 6 63 18 99 5 70 1 77 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 28 12 86 17 55 79 83 79 89 37 ]
+	B: [ 28 12 86 17 55 79 83 79 89 37 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 53 95 80 24 11 99 84 11 ]
+	B: [ 53 95 80 26 11 99 84 11 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 42 32 7 96 61 ]
+	B: [ 41 32 7 96 61 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 63 10 86 94 94 17 35 83 58 82 37 53 ]
+	B: [ 63 10 86 94 94 17 35 83 58 82 37 53 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 17 14 98 80 80 41 6 64 35 38 23 31 52 42 ]
+	B: [ 17 14 98 80 80 41 6 64 35 38 23 31 52 42 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 25 24 56 63 71 2 ]
+	B: [ 85 24 56 63 71 2 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 89 74 44 56 88 61 70 38 41 2 79 48 ]
+	B: [ 89 74 44 56 88 61 38 38 41 2 79 48 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 50 42 84 ]
+	B: [ 50 42 84 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 61 35 96 24 6 98 56 13 35 ]
+	B: [ 61 35 96 24 6 98 56 13 35 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 62 44 10 2 57 32 40 51 86 71 99 4 89 89 46 ]
+	B: [ 62 44 10 2 57 32 40 51 86 71 99 4 89 89 46 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 82 50 72 43 86 ]
+	B: [ 82 50 72 43 92 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 76 57 53 75 63 15 19 25 69 77 9 9 80 95 32 31 0 22 20 ]
+	B: [ 76 57 53 75 63 15 19 56 69 77 9 9 80 95 32 31 0 22 20 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 64 28 24 50 48 44 94 18 72 4 ]
+	B: [ 64 28 24 50 48 44 94 67 72 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 19 93 9 48 54 70 28 50 55 59 50 29 31 48 42 88 77 6 68 54 ]
+	B: [ 19 93 9 48 54 70 28 50 55 98 50 29 31 48 42 88 77 6 68 54 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 87 70 7 11 ]
+	B: [ 87 70 7 11 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 3 40 71 64 88 26 86 ]
+	B: [ 3 40 71 41 88 26 86 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 78 22 59 26 65 99 4 23 ]
+	B: [ 78 22 59 26 65 99 4 23 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 32 88 8 87 76 30 94 39 51 72 42 92 44 6 80 22 93 49 98 ]
+	B: [ 32 76 8 87 76 30 94 39 51 72 42 92 44 6 80 22 93 49 98 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 87 2 26 38 58 49 58 68 81 46 ]
+	B: [ 74 2 26 38 58 49 58 68 81 46 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 14 14 62 39 56 54 35 15 34 57 60 35 7 46 64 83 55 3 37 ]
+	B: [ 14 14 62 39 56 54 35 15 34 57 60 35 7 46 64 83 55 3 37 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 48 83 0 ]
+	B: [ 48 83 46 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 37 21 59 3 87 21 42 43 75 77 ]
+	B: [ 37 21 86 3 87 21 42 43 75 77 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 97 93 17 61 28 24 17 66 58 59 66 ]
+	B: [ 97 93 17 61 28 24 17 66 58 59 66 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 86 9 57 35 46 30 95 2 17 16 96 13 92 74 23 6 60 94 3 6 ]
+	B: [ 86 9 57 35 46 30 95 2 17 16 96 13 92 74 23 6 60 94 3 6 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 34 39 34 52 49 93 18 42 4 5 4 13 92 2 44 87 4 61 ]
+	B: [ 34 39 34 52 49 93 18 26 4 5 4 13 92 2 44 87 4 61 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 27 50 54 39 96 9 45 11 26 ]
+	B: [ 27 12 54 39 96 9 45 11 26 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 52 57 3 46 61 60 50 27 52 53 71 40 57 ]
+	B: [ 52 57 3 46 61 60 50 27 52 10 71 40 57 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 48 37 13 54 77 61 63 74 24 42 54 26 ]
+	B: [ 48 37 13 78 77 61 63 74 24 42 54 26 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 42 25 77 2 27 ]
+	B: [ 42 25 77 2 80 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 46 90 60 94 0 23 42 90 88 96 19 49 12 93 25 54 ]
+	B: [ 46 90 60 94 0 23 42 60 88 96 19 49 12 93 25 54 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 82 24 29 59 2 83 86 6 ]
+	B: [ 82 24 29 59 2 83 86 6 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 34 36 9 46 30 9 69 25 ]
+	B: [ 34 36 9 46 30 9 69 25 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 73 70 58 85 64 83 39 64 86 52 3 68 76 32 27 30 67 66 ]
+	B: [ 73 70 58 85 64 83 39 64 86 52 3 68 76 32 27 30 67 66 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 33 71 92 94 17 ]
+	B: [ 33 71 92 94 17 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 38 0 7 47 73 77 57 59 93 92 50 57 78 2 60 47 ]
+	B: [ 38 0 7 47 73 77 57 59 93 92 50 57 78 2 60 47 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 26 61 11 92 98 ]
+	B: [ 26 61 21 92 98 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 71 ]
+	B: [ 79 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 87 ]
+	B: [ 13 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 36 24 9 28 ]
+	B: [ 36 24 59 28 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 27 58 60 71 84 73 35 29 24 3 ]
+	B: [ 27 58 60 71 84 15 35 29 24 3 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 88 3 61 ]
+	B: [ 88 3 47 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 55 ]
+	B: [ 31 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 17 58 38 76 87 17 34 99 40 70 72 27 ]
+	B: [ 17 58 38 76 87 17 34 99 40 70 72 27 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 82 10 94 98 92 82 53 53 2 47 52 54 55 14 91 86 38 ]
+	B: [ 82 10 94 98 92 82 53 53 2 47 28 54 55 14 91 86 38 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 83 45 22 34 37 44 7 65 96 ]
+	B: [ 83 45 22 34 37 44 7 65 96 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 6 49 97 50 83 2 3 38 ]
+	B: [ 6 49 97 50 83 2 3 92 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 21 35 91 11 95 88 ]
+	B: [ 21 35 91 11 95 88 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 23 36 57 58 ]
+	B: [ 23 36 65 58 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 50 20 90 8 22 88 58 57 90 61 95 40 ]
+	B: [ 97 20 90 8 22 88 58 57 90 61 95 40 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 75 41 ]
+	B: [ 75 41 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 29 44 58 52 ]
+	B: [ 29 44 58 52 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 10 59 70 27 50 72 0 40 80 74 80 38 31 71 99 79 63 ]
+	B: [ 10 59 70 27 50 72 0 40 80 74 80 38 31 71 99 79 63 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 61 12 46 54 17 69 83 62 28 87 95 96 50 54 66 29 56 38 29 96 ]
+	B: [ 61 12 46 54 17 69 83 62 28 87 95 96 50 54 66 8 56 38 29 96 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 0 7 18 15 78 37 28 90 ]
+	B: [ 0 7 18 15 78 37 28 90 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 8 5 17 ]
+	B: [ 57 5 17 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 81 7 23 99 36 79 89 18 27 7 ]
+	B: [ 81 7 23 99 36 79 89 18 27 7 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 15 12 8 74 30 76 4 19 56 46 55 39 6 12 8 28 97 ]
+	B: [ 15 12 8 74 30 76 4 19 56 46 55 39 6 12 8 28 97 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 30 72 72 29 61 3 18 31 83 77 56 91 44 69 52 70 51 28 ]
+	B: [ 30 84 72 29 61 3 18 31 83 77 56 91 44 69 52 70 51 28 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 30 75 79 94 84 59 91 49 9 73 74 81 2 ]
+	B: [ 30 75 79 94 84 59 91 49 9 73 74 81 2 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 72 66 20 1 74 11 45 43 15 67 47 43 93 22 80 17 4 7 ]
+	B: [ 72 66 20 1 74 11 45 43 15 67 47 43 93 22 80 17 91 7 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 89 93 17 62 67 50 16 54 87 ]
+	B: [ 89 93 59 62 67 50 16 54 87 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 46 23 ]
+	B: [ 38 23 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 89 82 50 63 14 67 ]
+	B: [ 89 82 50 63 14 67 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 16 65 ]
+	B: [ 16 65 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 6 58 41 20 25 ]
+	B: [ 6 58 41 20 25 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 79 31 28 51 90 69 97 13 59 ]
+	B: [ 79 31 28 51 90 69 97 13 59 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 16 32 86 66 95 0 85 14 73 1 79 38 77 ]
+	B: [ 16 32 86 66 95 0 85 14 73 1 79 38 77 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 18 57 73 62 45 4 93 25 7 35 46 5 49 5 48 53 73 ]
+	B: [ 18 57 73 62 45 4 93 25 7 35 46 5 49 5 48 53 73 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 39 76 91 77 91 64 30 22 55 8 60 51 26 69 77 40 15 81 33 92 ]
+	B: [ 39 76 91 77 91 64 30 22 55 8 60 51 26 69 77 40 15 81 33 92 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 39 46 70 96 94 23 70 75 14 61 ]
+	B: [ 39 46 70 96 94 38 70 75 14 61 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 21 69 69 76 77 29 80 55 99 57 96 66 38 81 58 79 ]
+	B: [ 21 25 69 76 77 29 80 55 99 57 96 66 38 81 58 79 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 46 72 47 16 47 ]
+	B: [ 46 72 47 16 47 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 51 18 16 98 40 37 68 16 66 49 96 21 48 5 69 66 96 51 ]
+	B: [ 51 18 16 98 40 37 68 16 66 49 96 21 48 5 69 66 96 51 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 5 26 53 30 72 25 29 88 72 43 18 76 61 86 26 1 ]
+	B: [ 5 26 53 30 72 25 29 88 72 43 18 76 61 86 26 1 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 70 89 96 18 62 96 24 32 63 20 35 40 47 92 18 ]
+	B: [ 70 89 96 18 62 96 24 43 63 20 35 40 47 92 18 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 4 83 50 47 1 78 ]
+	B: [ 4 83 50 47 1 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 62 51 32 ]
+	B: [ 62 51 32 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 2 66 43 26 50 58 98 37 ]
+	B: [ 2 66 29 26 50 58 98 37 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 98 4 12 76 8 47 78 55 49 8 ]
+	B: [ 98 4 12 76 8 47 78 55 49 8 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 64 77 51 15 9 54 14 12 20 10 90 70 68 41 7 71 39 ]
+	B: [ 64 77 51 15 9 54 14 12 20 10 90 70 68 41 7 71 39 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 89 ]
+	B: [ 89 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 17 53 51 47 8 ]
+	B: [ 23 53 51 47 8 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 72 1 ]
+	B: [ 72 62 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 54 26 19 16 69 89 84 ]
+	B: [ 54 26 19 16 55 89 84 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 90 47 ]
+	B: [ 90 3 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 88 7 11 96 11 19 71 52 91 24 96 30 87 ]
+	B: [ 88 7 11 96 11 19 71 52 91 24 96 30 87 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 65 62 52 34 3 89 96 4 96 97 94 96 92 29 99 56 17 ]
+	B: [ 65 62 52 34 3 89 96 4 96 97 94 96 65 29 99 56 17 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 86 37 74 ]
+	B: [ 86 37 74 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 71 8 ]
+	B: [ 96 8 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 80 49 0 35 38 97 40 ]
+	B: [ 80 49 0 35 38 86 40 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 90 16 82 46 85 92 14 51 14 52 40 ]
+	B: [ 90 16 82 46 85 92 14 51 14 52 40 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 53 64 90 54 30 86 72 62 87 72 97 ]
+	B: [ 53 64 90 54 30 86 72 62 87 72 97 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 89 60 ]
+	B: [ 42 60 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 92 24 9 29 69 75 80 83 27 20 24 ]
+	B: [ 92 24 9 29 69 75 80 83 27 20 24 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 88 99 80 70 38 52 32 25 76 82 51 98 71 63 70 ]
+	B: [ 88 99 80 70 38 52 32 25 76 82 51 98 71 63 70 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 32 91 34 41 21 3 16 53 38 96 26 63 5 52 3 57 32 26 ]
+	B: [ 32 91 34 41 21 3 16 53 38 96 26 63 5 52 3 57 32 26 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 58 20 12 92 23 62 64 38 32 63 48 65 7 82 58 28 37 ]
+	B: [ 58 20 12 92 23 62 64 38 32 63 48 65 7 82 58 28 37 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 75 23 59 90 28 11 46 85 95 72 32 31 82 5 ]
+	B: [ 75 23 59 90 28 11 46 85 95 72 32 28 82 5 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 39 19 43 54 67 60 61 1 70 41 38 97 75 13 20 86 56 1 98 ]
+	B: [ 39 19 43 54 67 60 61 1 70 41 38 97 75 13 20 86 56 1 45 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 23 29 56 28 25 31 8 35 22 79 30 77 46 90 90 ]
+	B: [ 23 29 56 28 25 31 8 35 22 79 30 77 46 90 90 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 32 37 10 7 51 83 93 7 36 43 9 26 89 35 ]
+	B: [ 32 37 10 7 51 83 93 7 36 43 9 26 89 35 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 91 77 95 23 38 30 97 17 13 74 16 55 65 15 68 49 53 79 56 ]
+	B: [ 91 77 95 23 38 30 97 17 13 74 16 55 65 15 68 1 53 79 56 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 50 97 76 76 38 11 26 8 2 55 3 77 93 85 75 11 ]
+	B: [ 50 27 76 76 38 11 26 8 2 55 3 77 93 85 75 11 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 18 42 74 67 47 53 23 ]
+	B: [ 18 42 74 67 47 53 23 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 77 18 69 26 94 46 64 5 ]
+	B: [ 77 18 69 26 60 46 64 5 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 27 37 25 64 64 36 15 66 15 21 84 9 95 52 57 1 27 60 20 56 ]
+	B: [ 27 37 25 64 64 36 15 66 15 21 84 9 95 52 57 1 27 60 20 56 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 82 25 88 46 83 12 70 43 91 49 32 ]
+	B: [ 82 25 88 46 83 12 70 97 91 49 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 81 63 71 54 99 ]
+	B: [ 81 63 71 54 99 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 51 90 ]
+	B: [ 51 2 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 87 33 65 70 11 5 68 46 17 91 89 60 92 73 29 58 ]
+	B: [ 87 91 65 70 11 5 68 46 17 91 89 60 92 73 29 58 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 57 97 37 90 99 88 ]
+	B: [ 57 71 37 90 99 88 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 28 59 20 45 81 83 50 1 29 19 92 70 80 37 43 ]
+	B: [ 28 59 20 45 81 83 50 1 29 19 92 70 80 37 43 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 66 94 39 3 3 88 40 93 ]
+	B: [ 66 94 39 3 3 88 40 93 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 25 41 ]
+	B: [ 21 41 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 32 67 44 15 ]
+	B: [ 32 67 44 15 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 44 89 90 14 21 27 9 ]
+	B: [ 44 75 90 14 21 27 9 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 66 31 80 54 71 25 42 4 3 35 57 15 56 72 47 75 17 ]
+	B: [ 66 63 80 54 71 25 42 4 3 35 57 15 56 72 47 75 17 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 86 53 24 7 81 33 89 8 61 17 74 92 49 28 15 75 22 72 30 ]
+	B: [ 86 53 24 7 81 33 89 8 61 17 74 92 49 28 15 75 22 72 30 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 45 66 ]
+	B: [ 45 66 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 41 70 58 38 85 16 24 39 92 83 72 77 72 ]
+	B: [ 41 70 58 38 85 16 24 39 92 42 72 77 72 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 82 91 86 50 18 9 22 ]
+	B: [ 82 91 86 50 18 9 55 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 84 8 89 78 79 47 ]
+	B: [ 84 8 89 78 15 47 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 55 7 76 79 85 1 11 75 95 69 10 86 56 12 ]
+	B: [ 55 7 76 79 85 1 11 75 95 69 10 86 56 12 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 86 57 35 41 3 72 49 92 50 80 40 18 97 55 11 4 15 40 ]
+	B: [ 86 57 35 41 3 72 49 92 50 80 40 18 97 55 93 4 15 40 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 27 88 17 37 74 73 1 83 ]
+	B: [ 27 88 17 41 74 73 1 83 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 28 96 1 30 88 3 10 80 22 59 36 85 64 3 77 0 55 70 ]
+	B: [ 28 96 1 30 88 3 10 80 22 59 36 85 64 3 77 0 55 70 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 58 64 72 ]
+	B: [ 58 64 72 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 73 68 79 61 61 9 89 57 10 19 46 66 82 78 88 41 66 25 ]
+	B: [ 73 68 79 61 61 9 89 57 10 19 46 66 82 78 88 41 66 25 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 3 57 24 25 5 7 84 69 31 69 ]
+	B: [ 3 57 24 25 5 7 84 69 31 69 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 89 90 65 51 51 ]
+	B: [ 89 90 65 51 51 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 62 78 6 28 60 85 68 54 51 ]
+	B: [ 62 78 6 28 60 85 68 54 51 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 21 0 69 45 26 26 4 62 95 35 31 6 ]
+	B: [ 21 0 69 45 26 26 4 62 49 35 31 6 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 23 0 16 32 14 95 90 42 7 75 62 13 79 60 77 0 60 46 ]
+	B: [ 23 0 16 32 14 95 90 42 7 75 62 13 79 60 77 0 60 46 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 24 54 0 71 89 31 78 81 4 79 91 27 79 7 11 94 54 2 88 ]
+	B: [ 24 54 0 71 89 31 78 81 3 79 91 27 79 7 11 94 54 2 88 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 8 63 56 60 75 54 10 14 78 64 14 50 53 98 80 87 54 59 78 33 ]
+	B: [ 8 63 56 60 75 54 10 14 78 64 14 50 53 98 80 87 54 45 78 33 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 44 99 73 58 28 ]
+	B: [ 44 99 89 58 28 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 46 49 18 0 59 32 79 23 99 29 29 97 ]
+	B: [ 46 49 18 0 59 32 79 23 99 29 29 97 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 3 20 46 36 58 83 33 95 27 32 20 37 13 48 27 2 91 ]
+	B: [ 3 20 46 36 58 83 33 95 27 32 20 37 13 48 27 2 91 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 9 25 63 42 ]
+	B: [ 9 25 93 42 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 19 42 46 87 45 66 ]
+	B: [ 19 42 46 87 45 66 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 77 69 ]
+	B: [ 77 69 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 48 99 92 38 12 40 65 14 31 90 70 92 15 ]
+	B: [ 48 99 92 38 12 40 65 14 31 90 70 92 15 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 72 23 79 57 95 21 4 ]
+	B: [ 22 23 79 57 95 21 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 52 99 89 19 71 89 18 15 27 ]
+	B: [ 52 99 89 19 71 89 18 15 27 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 44 49 38 34 19 83 2 4 69 74 28 49 83 23 22 39 ]
+	B: [ 44 49 38 34 19 83 2 4 69 74 28 49 83 23 22 39 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 62 25 45 13 66 64 37 56 34 52 83 17 60 80 ]
+	B: [ 62 25 45 13 66 64 37 56 34 52 83 17 60 80 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 66 86 33 68 91 3 94 71 4 78 46 ]
+	B: [ 66 86 33 68 91 3 94 71 55 78 46 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 79 33 68 93 99 84 82 55 19 34 91 88 ]
+	B: [ 79 33 68 93 99 84 82 55 19 34 91 7 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 89 94 30 58 37 85 4 60 89 82 58 20 0 13 91 31 46 12 ]
+	B: [ 89 94 30 58 37 85 4 60 89 82 58 20 96 13 91 31 46 12 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 53 67 45 44 56 91 67 63 88 9 9 19 19 98 56 23 58 98 6 ]
+	B: [ 58 67 45 44 56 91 67 63 88 9 9 19 19 98 56 23 58 98 6 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 61 41 28 ]
+	B: [ 61 41 28 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 26 70 28 80 37 73 76 45 65 96 9 53 5 70 24 24 69 33 47 ]
+	B: [ 26 70 28 80 37 73 76 45 65 96 9 53 5 70 24 24 69 33 47 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 5 96 49 63 78 10 57 58 36 75 85 58 ]
+	B: [ 5 96 49 63 78 10 57 58 36 75 85 58 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 47 29 41 93 94 37 ]
+	B: [ 47 29 41 94 94 37 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 76 18 45 9 18 ]
+	B: [ 76 18 45 9 18 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 23 21 41 39 51 3 96 9 91 23 94 49 78 ]
+	B: [ 23 21 41 39 51 3 96 9 91 23 94 49 78 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 59 53 90 53 42 96 5 89 72 33 7 18 94 77 43 86 53 16 ]
+	B: [ 59 53 90 53 42 96 5 89 72 33 7 18 94 77 43 86 53 16 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 67 82 40 28 74 15 23 75 45 34 72 5 39 ]
+	B: [ 67 82 40 28 74 15 34 75 45 34 72 5 39 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 15 23 35 0 82 53 94 60 96 32 13 ]
+	B: [ 15 23 35 0 82 57 94 60 96 32 13 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 94 49 59 20 16 34 95 61 21 20 66 12 ]
+	B: [ 94 49 59 20 16 46 95 61 21 20 66 12 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 44 21 84 45 56 37 91 16 85 24 ]
+	B: [ 44 21 84 45 56 37 91 16 85 24 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 87 90 80 81 91 91 53 7 26 1 ]
+	B: [ 87 90 80 81 91 91 53 73 26 1 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 11 59 64 10 8 60 31 44 ]
+	B: [ 11 59 64 10 8 60 31 44 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 33 49 55 18 25 88 67 12 ]
+	B: [ 33 49 55 18 25 88 67 46 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 91 51 28 69 4 97 68 77 84 79 ]
+	B: [ 91 51 28 69 4 97 68 77 84 79 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 89 ]
+	B: [ 89 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 73 ]
+	B: [ 12 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 19 20 46 96 8 65 60 39 ]
+	B: [ 19 20 46 96 8 65 60 39 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 60 8 10 89 29 14 38 ]
+	B: [ 60 8 10 89 29 14 38 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 74 28 81 74 18 30 86 43 76 56 55 4 27 ]
+	B: [ 74 28 81 74 18 30 86 43 76 56 55 4 27 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 75 36 19 ]
+	B: [ 75 94 19 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 44 4 76 73 19 66 22 63 ]
+	B: [ 44 4 76 96 19 66 22 63 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 21 78 5 64 55 61 71 ]
+	B: [ 21 78 5 64 55 61 71 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 99 13 ]
+	B: [ 99 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 14 21 99 1 65 ]
+	B: [ 14 21 99 1 65 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 91 26 96 65 89 37 16 37 3 89 16 ]
+	B: [ 23 26 96 65 89 37 16 37 3 89 16 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 77 86 15 ]
+	B: [ 77 83 15 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 83 88 29 56 39 82 22 94 12 65 21 9 82 62 46 51 ]
+	B: [ 83 88 29 56 39 82 22 94 12 65 21 9 82 40 46 51 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 62 46 43 36 75 29 3 3 80 ]
+	B: [ 62 46 15 36 75 29 3 3 80 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 99 72 65 81 46 60 94 ]
+	B: [ 99 72 65 81 46 60 94 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 55 45 ]
+	B: [ 55 45 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 96 95 54 89 63 68 35 58 56 10 87 59 65 67 ]
+	B: [ 96 95 54 89 63 83 35 58 56 10 87 59 65 67 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 34 7 38 15 53 50 9 16 83 64 61 78 69 ]
+	B: [ 34 7 38 15 53 50 9 16 24 64 61 78 69 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 89 44 34 48 1 96 35 60 61 55 58 96 90 31 30 97 21 97 50 23 ]
+	B: [ 89 44 34 48 1 96 35 60 61 55 58 96 90 31 30 97 21 97 50 23 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 6 75 31 84 45 41 10 69 40 0 65 26 0 66 74 35 27 87 42 ]
+	B: [ 6 75 31 84 45 41 10 69 40 0 65 26 0 66 74 35 27 87 42 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 32 68 65 29 ]
+	B: [ 32 68 65 29 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 31 64 22 49 ]
+	B: [ 31 81 22 49 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 94 22 17 15 15 17 81 93 ]
+	B: [ 94 22 17 15 15 17 81 93 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 68 5 26 55 47 64 91 32 ]
+	B: [ 61 5 26 55 47 64 91 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 71 45 42 45 94 65 95 27 72 89 2 89 5 17 59 86 10 28 85 ]
+	B: [ 71 45 42 45 94 65 95 27 72 89 2 89 5 17 59 86 10 64 85 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 85 80 77 17 64 85 30 ]
+	B: [ 85 75 77 17 64 85 30 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 54 22 2 1 49 26 91 51 67 48 20 26 86 83 7 71 13 92 ]
+	B: [ 54 22 2 1 49 26 91 51 67 48 20 26 86 83 7 71 13 92 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 29 67 80 46 32 66 77 26 27 4 63 81 ]
+	B: [ 29 67 80 46 32 66 77 26 27 35 63 81 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 43 78 31 11 26 4 89 12 87 ]
+	B: [ 43 78 31 52 26 4 89 12 87 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 75 4 ]
+	B: [ 84 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 74 2 46 53 29 50 16 63 29 86 98 57 29 76 88 40 54 92 ]
+	B: [ 74 2 46 53 29 50 16 63 29 86 98 57 29 76 88 40 31 92 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 5 84 19 80 40 42 23 76 59 49 31 57 2 60 59 71 75 88 57 ]
+	B: [ 5 84 19 80 40 42 23 76 59 49 31 57 2 60 59 71 75 88 57 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 38 1 86 31 55 30 ]
+	B: [ 38 1 86 31 55 30 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 62 91 79 98 63 59 90 5 82 66 16 84 97 73 ]
+	B: [ 62 91 79 98 63 59 90 5 84 66 16 84 97 73 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 85 73 18 11 70 57 12 8 88 68 ]
+	B: [ 85 73 18 11 70 57 12 8 88 68 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 93 53 ]
+	B: [ 51 53 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 84 93 64 18 59 32 2 9 57 41 19 42 2 56 15 21 67 37 30 32 ]
+	B: [ 84 93 64 18 59 32 2 9 57 41 19 42 2 56 15 21 67 37 52 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 71 45 90 67 70 41 ]
+	B: [ 71 45 90 67 70 41 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 86 43 76 45 76 79 6 ]
+	B: [ 86 43 76 45 76 79 6 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 77 27 74 86 94 47 53 32 77 37 30 47 89 ]
+	B: [ 77 27 74 86 94 47 53 32 77 37 30 47 89 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 87 5 38 9 98 17 15 84 12 91 81 ]
+	B: [ 87 5 38 9 40 17 15 84 12 91 81 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 46 17 5 21 55 0 68 ]
+	B: [ 46 17 5 21 55 0 68 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 98 98 14 45 88 ]
+	B: [ 98 98 14 45 88 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 27 38 6 36 88 75 3 24 87 46 57 28 69 97 54 67 67 ]
+	B: [ 27 38 6 36 88 75 3 24 87 46 57 28 69 97 54 67 67 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 22 11 9 83 47 7 82 13 4 ]
+	B: [ 20 11 9 83 47 7 82 13 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 84 78 ]
+	B: [ 84 78 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 53 92 96 41 38 54 21 59 51 27 27 70 38 ]
+	B: [ 53 92 96 41 38 54 21 59 51 27 27 70 38 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 2 28 28 49 35 10 15 92 84 9 64 85 46 43 ]
+	B: [ 2 28 28 49 48 10 15 92 84 9 64 85 46 43 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 15 41 57 21 62 68 24 ]
+	B: [ 15 41 57 21 62 68 24 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 95 80 15 40 82 43 68 83 31 31 98 23 67 60 39 53 ]
+	B: [ 95 80 15 40 82 43 68 83 31 31 27 23 67 60 39 53 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 31 46 91 24 3 ]
+	B: [ 31 46 23 24 3 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 28 71 36 60 86 76 42 81 96 78 ]
+	B: [ 28 71 36 60 86 76 42 81 96 76 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 47 36 79 52 94 61 31 19 44 77 62 69 32 27 8 56 68 88 27 4 ]
+	B: [ 47 36 79 52 94 61 31 19 44 77 62 69 32 27 8 56 68 88 27 4 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 32 43 46 80 73 11 ]
+	B: [ 32 43 46 80 50 11 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 38 29 11 33 43 94 4 39 24 18 60 56 97 68 64 65 9 43 69 58 ]
+	B: [ 38 53 11 33 43 94 4 39 24 18 60 56 97 68 64 65 9 43 69 58 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 34 27 22 46 29 24 5 19 54 68 4 49 62 60 40 86 79 1 95 76 ]
+	B: [ 34 27 22 46 29 24 5 19 54 68 4 49 62 60 40 86 79 1 95 76 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 42 30 7 63 40 67 17 94 78 51 73 0 ]
+	B: [ 42 30 7 63 40 67 17 94 78 51 73 0 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 25 2 73 ]
+	B: [ 25 2 73 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 78 80 36 ]
+	B: [ 23 80 36 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 21 70 46 43 33 40 25 40 3 66 60 20 12 38 23 85 39 20 ]
+	B: [ 21 70 46 43 33 40 25 40 3 66 60 20 12 38 23 85 39 20 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 74 12 47 96 90 27 85 81 99 60 50 73 30 96 68 15 36 ]
+	B: [ 74 12 47 96 90 27 85 81 99 60 50 73 30 96 68 15 36 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 92 11 68 64 23 58 88 8 49 8 99 65 35 64 12 83 54 ]
+	B: [ 92 11 68 64 23 58 88 8 49 8 99 65 35 64 12 83 54 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 87 43 28 38 16 10 34 36 26 ]
+	B: [ 87 43 28 38 16 10 34 36 26 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 34 15 ]
+	B: [ 34 15 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 79 16 60 ]
+	B: [ 79 16 60 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 62 28 76 27 63 40 40 98 47 31 67 34 74 95 24 42 58 59 ]
+	B: [ 62 28 76 27 63 40 40 98 47 31 67 34 74 95 24 42 34 59 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 18 49 57 72 80 73 84 0 2 46 80 31 74 ]
+	B: [ 18 49 57 72 80 73 84 0 2 46 80 31 74 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 66 93 22 97 ]
+	B: [ 66 24 22 97 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 81 18 66 92 49 2 26 13 72 ]
+	B: [ 81 18 66 92 49 2 26 13 72 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 44 60 95 28 60 50 27 40 81 53 87 ]
+	B: [ 44 60 95 28 60 80 27 40 81 53 87 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 68 93 36 44 53 69 63 71 ]
+	B: [ 68 93 36 44 73 69 63 71 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 29 45 20 51 41 80 98 21 92 48 48 84 29 ]
+	B: [ 29 45 20 51 41 80 98 21 92 48 48 84 29 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 86 72 3 65 41 96 53 85 49 74 0 72 ]
+	B: [ 86 72 3 65 45 96 53 85 49 74 0 72 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 93 42 ]
+	B: [ 93 42 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 83 85 95 57 77 43 5 61 25 59 84 63 31 87 28 24 36 ]
+	B: [ 83 85 95 57 77 43 5 61 25 59 84 63 31 87 28 24 36 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 37 7 10 10 96 27 7 29 72 2 34 ]
+	B: [ 37 7 10 10 96 27 7 29 72 2 34 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 19 64 94 48 7 52 61 32 11 45 95 94 84 75 19 20 8 29 ]
+	B: [ 19 64 91 48 7 52 61 32 11 45 95 94 84 75 19 20 8 29 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 64 ]
+	B: [ 45 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 29 79 12 67 50 76 61 98 83 65 59 68 ]
+	B: [ 15 79 12 67 50 76 61 98 83 65 59 68 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 40 43 42 61 ]
+	B: [ 40 43 42 61 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 19 71 66 39 ]
+	B: [ 19 71 66 39 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 18 32 28 48 63 40 ]
+	B: [ 18 32 28 48 63 40 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 68 80 63 3 46 22 71 74 78 39 97 19 82 39 ]
+	B: [ 68 80 63 14 46 22 71 74 78 39 97 19 82 39 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 9 81 42 96 18 12 81 98 12 44 90 79 ]
+	B: [ 9 81 42 96 18 12 12 98 12 44 90 79 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 13 10 48 85 84 78 ]
+	B: [ 13 10 48 85 49 78 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 73 81 47 40 84 56 73 78 53 91 91 ]
+	B: [ 73 3 47 40 84 56 73 78 53 91 91 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 31 35 44 ]
+	B: [ 31 35 44 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 70 54 57 70 91 93 48 19 ]
+	B: [ 70 54 57 70 91 93 48 19 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 29 1 79 77 93 16 85 66 94 90 57 85 76 50 89 59 33 76 3 ]
+	B: [ 29 1 73 77 93 16 85 66 94 90 57 85 76 50 89 59 33 76 3 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 32 43 24 25 44 43 53 94 25 6 25 54 99 ]
+	B: [ 32 43 24 25 44 43 53 94 25 6 25 54 99 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 65 36 30 74 21 58 24 62 69 9 38 73 35 13 98 67 45 94 43 23 ]
+	B: [ 65 36 30 74 21 58 24 28 69 9 38 73 35 13 98 67 45 94 43 23 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 64 34 9 18 85 ]
+	B: [ 64 34 9 18 85 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 2 87 39 76 60 98 52 23 19 61 61 92 48 75 43 15 72 89 ]
+	B: [ 2 87 39 76 60 98 52 23 19 61 61 92 48 75 43 15 72 89 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 79 98 75 15 62 61 24 32 ]
+	B: [ 79 98 75 15 62 61 24 89 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 66 81 76 27 31 80 50 50 93 ]
+	B: [ 66 81 76 27 31 80 50 50 93 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 41 90 90 9 15 79 68 62 10 18 90 25 80 51 1 12 ]
+	B: [ 41 90 90 9 15 79 68 62 10 18 90 25 80 53 1 12 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 47 86 27 74 17 7 76 20 1 92 15 94 82 5 3 49 36 23 12 ]
+	B: [ 2 86 27 74 17 7 76 20 1 92 15 94 82 5 3 49 36 23 12 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 73 5 28 37 3 9 91 54 57 77 81 83 47 40 60 67 ]
+	B: [ 73 5 28 37 3 9 91 54 57 77 81 83 47 40 60 67 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 34 40 86 91 43 36 27 67 0 25 60 54 52 ]
+	B: [ 34 40 86 91 43 36 27 67 80 25 60 54 52 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 15 90 14 21 99 44 54 82 91 94 42 10 ]
+	B: [ 15 90 14 21 99 44 54 82 91 94 44 10 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 85 ]
+	B: [ 85 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 73 14 42 73 91 55 27 43 89 38 23 60 53 65 27 26 ]
+	B: [ 73 14 42 73 91 55 27 80 89 38 23 60 53 65 27 26 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 62 75 41 72 67 40 68 47 ]
+	B: [ 62 75 41 72 67 40 68 47 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 22 98 69 17 ]
+	B: [ 22 98 69 17 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 72 ]
+	B: [ 13 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 78 ]
+	B: [ 78 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 96 52 72 60 23 53 7 ]
+	B: [ 96 52 72 60 23 53 7 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 1 ]
+	B: [ 1 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 41 29 46 66 84 20 16 53 ]
+	B: [ 41 29 46 66 84 20 16 53 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 65 13 41 20 26 81 51 4 79 47 56 52 7 32 57 67 69 89 68 31 ]
+	B: [ 65 13 41 20 26 81 51 4 79 60 56 52 7 32 57 67 69 89 68 31 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 27 97 54 43 50 44 82 68 57 23 88 36 56 91 40 ]
+	B: [ 27 97 54 43 50 44 82 68 96 23 88 36 56 91 40 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 98 ]
+	B: [ 65 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 38 33 81 26 94 93 60 21 90 66 64 ]
+	B: [ 38 33 81 26 94 93 60 21 90 66 64 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 98 61 20 21 1 8 29 93 48 65 31 ]
+	B: [ 98 61 20 21 1 8 29 93 48 65 29 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 6 46 27 44 31 60 70 25 53 30 98 44 49 14 89 11 12 50 ]
+	B: [ 6 46 27 44 31 60 70 25 53 30 98 44 49 14 89 11 12 50 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 3 39 15 96 39 32 ]
+	B: [ 42 39 15 96 39 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 13 48 ]
+	B: [ 93 48 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 52 15 17 5 98 67 1 47 34 90 58 46 ]
+	B: [ 52 15 17 5 98 67 84 47 34 90 58 46 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 33 51 44 73 35 24 9 77 86 74 26 46 66 71 89 18 86 ]
+	B: [ 33 51 44 73 35 24 9 77 86 74 26 46 66 36 89 18 86 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 77 83 60 67 94 58 12 ]
+	B: [ 77 83 60 67 94 8 12 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 45 52 42 81 29 3 58 67 77 36 ]
+	B: [ 45 52 42 81 29 3 58 67 77 36 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 7 54 13 46 13 89 82 39 66 18 51 85 12 9 49 0 ]
+	B: [ 7 54 13 46 13 69 82 39 66 18 51 85 12 9 49 0 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 62 64 30 91 19 41 10 49 77 75 ]
+	B: [ 62 64 30 91 19 41 10 29 77 75 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 35 42 99 69 33 17 87 84 54 51 46 ]
+	B: [ 35 42 99 69 33 17 87 84 54 51 50 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 73 51 75 37 34 18 56 75 28 5 4 3 2 41 ]
+	B: [ 73 51 75 37 34 18 56 75 28 5 4 3 2 41 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 76 27 11 98 13 80 85 97 86 89 95 90 40 ]
+	B: [ 76 27 11 98 13 80 85 97 86 89 95 90 40 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 13 97 83 2 31 2 59 58 82 16 62 38 18 4 23 30 32 ]
+	B: [ 13 97 82 2 31 2 59 58 82 16 62 38 18 4 23 30 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 25 68 65 64 57 60 6 49 6 62 15 55 46 17 38 0 ]
+	B: [ 25 68 65 64 57 60 6 49 6 62 15 55 82 17 38 0 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 10 20 15 66 43 98 ]
+	B: [ 10 20 15 66 43 98 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 43 33 61 21 1 78 85 ]
+	B: [ 43 33 61 21 1 78 91 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 97 54 27 52 0 44 42 0 73 90 34 70 0 ]
+	B: [ 97 54 27 52 0 44 42 0 73 90 34 70 0 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 67 50 83 18 96 79 ]
+	B: [ 67 50 83 18 96 79 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 0 5 88 85 67 79 76 79 76 82 58 ]
+	B: [ 0 5 88 85 67 79 76 79 3 82 58 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 86 28 12 ]
+	B: [ 86 28 12 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 13 76 35 80 78 71 98 75 50 1 37 50 6 77 87 26 57 15 5 ]
+	B: [ 13 76 35 80 78 71 98 75 50 1 37 50 6 77 87 26 57 15 5 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 16 14 32 19 36 19 99 49 92 49 62 20 84 94 98 55 44 25 57 ]
+	B: [ 16 14 32 19 36 19 99 49 92 49 62 20 84 94 98 55 44 25 57 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 7 4 92 ]
+	B: [ 49 4 92 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 87 34 60 ]
+	B: [ 87 34 60 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 44 74 37 15 73 38 7 22 52 ]
+	B: [ 44 74 37 15 73 38 7 22 52 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 46 26 14 42 51 24 87 66 83 43 58 30 73 59 92 13 93 4 16 94 ]
+	B: [ 46 26 14 42 51 24 87 66 83 43 58 31 73 59 92 13 93 4 16 94 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 16 69 23 91 73 3 50 19 81 16 13 84 40 0 50 24 96 ]
+	B: [ 16 69 23 91 73 21 50 19 81 16 13 84 40 0 50 24 96 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 98 34 65 2 51 59 2 94 42 18 10 63 94 53 36 97 3 7 78 20 ]
+	B: [ 98 34 12 2 51 59 2 94 42 18 10 63 94 53 36 97 3 7 78 20 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 65 36 68 25 42 42 97 40 76 62 94 79 73 ]
+	B: [ 65 36 68 25 42 42 97 40 76 62 94 79 73 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 67 67 88 30 61 41 ]
+	B: [ 45 67 88 30 61 41 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 40 17 97 3 29 69 ]
+	B: [ 40 17 90 3 29 69 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 8 32 46 1 60 60 95 40 33 44 17 0 12 5 82 25 47 0 ]
+	B: [ 8 32 46 1 60 60 77 40 33 44 17 0 12 5 82 25 47 0 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 61 74 31 90 44 3 8 86 1 69 18 99 70 78 60 65 70 ]
+	B: [ 61 74 31 90 44 3 8 86 1 69 18 99 70 78 60 65 70 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 88 46 22 45 80 99 92 81 87 88 10 ]
+	B: [ 88 46 22 45 80 99 92 85 87 88 10 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 92 81 3 52 67 56 21 37 ]
+	B: [ 92 81 3 52 67 56 21 37 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 15 15 57 38 61 67 78 59 41 23 39 92 ]
+	B: [ 15 15 57 38 80 67 78 59 41 23 39 92 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 35 96 58 20 95 2 1 98 54 20 54 76 57 62 67 72 77 ]
+	B: [ 35 96 58 20 95 2 1 98 54 20 54 76 90 62 67 72 77 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 40 1 88 16 93 81 84 65 61 92 0 57 2 72 4 4 ]
+	B: [ 40 1 88 16 93 81 84 65 61 92 0 57 2 72 4 4 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 59 45 9 87 ]
+	B: [ 59 45 9 54 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 1 83 41 43 78 82 45 67 ]
+	B: [ 1 83 41 43 78 82 48 67 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 55 61 78 8 70 81 80 74 37 6 29 96 3 39 35 ]
+	B: [ 55 61 78 8 70 81 80 90 37 6 29 96 3 39 35 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 15 25 26 59 3 60 ]
+	B: [ 15 25 10 59 3 60 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 70 96 97 ]
+	B: [ 70 96 97 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 5 53 8 38 28 45 96 9 ]
+	B: [ 5 53 8 38 28 45 96 48 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 57 63 71 94 78 96 73 89 52 33 ]
+	B: [ 57 63 71 94 78 96 73 89 52 33 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 96 87 97 44 37 80 71 94 34 79 32 14 77 28 23 ]
+	B: [ 96 87 97 44 37 80 71 94 34 79 32 14 77 28 23 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 24 ]
+	B: [ 87 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 84 17 24 57 7 76 42 52 3 90 40 0 35 77 80 6 71 ]
+	B: [ 84 17 24 57 7 76 42 52 3 90 56 0 35 77 80 6 71 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 67 ]
+	B: [ 90 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 80 94 58 19 22 94 88 47 3 ]
+	B: [ 80 94 58 19 22 94 88 47 3 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 97 0 78 88 92 30 23 69 63 81 92 29 19 0 10 86 ]
+	B: [ 97 0 78 88 92 30 23 69 63 81 92 29 19 0 10 86 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 28 57 98 23 15 17 97 ]
+	B: [ 28 57 98 23 15 17 97 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 96 64 53 72 62 5 ]
+	B: [ 96 64 53 72 97 5 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 25 18 48 6 62 77 ]
+	B: [ 25 39 48 6 62 77 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 52 57 45 61 55 20 77 24 17 90 82 14 55 87 38 17 92 ]
+	B: [ 52 57 41 61 55 20 77 24 17 90 82 14 55 87 38 17 92 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 96 59 25 2 73 55 32 36 94 49 40 4 94 2 59 14 31 36 ]
+	B: [ 96 59 25 2 73 55 32 36 94 49 40 4 94 2 59 14 31 36 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 70 97 ]
+	B: [ 70 87 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 1 80 68 94 57 64 53 35 19 26 90 51 15 36 52 7 40 46 ]
+	B: [ 1 80 68 94 57 64 53 35 19 26 90 51 15 36 52 7 40 46 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 12 44 88 96 18 10 45 46 19 33 96 20 65 ]
+	B: [ 12 44 88 96 18 10 45 46 22 33 96 20 65 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 19 9 48 97 51 51 64 88 4 72 ]
+	B: [ 19 9 85 97 51 51 64 88 4 72 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 15 30 72 63 48 82 60 46 1 45 42 73 10 ]
+	B: [ 15 30 72 63 48 82 60 46 1 45 42 73 10 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 85 36 10 94 36 60 46 39 24 86 43 48 66 98 34 99 13 16 71 28 ]
+	B: [ 85 36 10 94 36 60 88 39 24 86 43 48 66 98 34 99 13 16 71 28 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 7 34 5 33 44 12 72 81 0 35 76 ]
+	B: [ 7 34 5 33 44 12 72 81 0 35 74 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 71 60 23 20 26 73 6 25 ]
+	B: [ 71 60 23 20 26 73 49 25 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 38 55 6 0 14 92 5 ]
+	B: [ 38 55 6 0 14 92 5 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 69 72 70 21 7 46 9 54 20 89 ]
+	B: [ 69 72 70 21 7 46 9 54 20 89 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 64 97 59 37 55 84 75 29 33 93 67 40 99 ]
+	B: [ 64 97 59 37 55 84 92 29 33 93 67 40 99 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 2 33 47 26 3 68 ]
+	B: [ 2 33 47 26 3 68 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 30 39 74 ]
+	B: [ 30 39 74 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 7 35 14 66 72 22 2 99 51 88 92 71 28 91 91 35 35 68 ]
+	B: [ 7 35 14 66 72 22 2 99 51 88 15 71 28 91 91 35 35 68 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 72 36 50 26 66 ]
+	B: [ 72 36 50 26 66 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 37 ]
+	B: [ 72 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 25 44 47 28 43 50 ]
+	B: [ 25 44 47 28 43 21 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 78 12 32 14 81 22 34 48 38 58 84 40 84 2 82 85 39 ]
+	B: [ 78 12 32 14 81 22 34 48 38 58 11 40 84 2 82 85 39 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 70 7 16 98 2 67 66 89 40 14 68 53 46 34 86 20 68 86 ]
+	B: [ 70 7 16 98 2 67 66 89 40 14 68 53 46 34 86 20 68 86 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 23 51 63 25 33 48 65 26 ]
+	B: [ 23 51 63 25 33 48 65 26 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 95 63 84 64 13 38 31 79 28 71 45 96 76 44 30 14 64 ]
+	B: [ 95 63 84 64 13 75 31 79 28 71 45 96 76 44 30 14 64 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 76 27 93 53 12 93 18 90 86 47 ]
+	B: [ 76 83 93 53 12 93 18 90 86 47 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 14 21 33 45 49 56 43 45 85 87 27 ]
+	B: [ 14 21 33 45 49 56 43 45 85 87 27 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 30 4 79 11 32 58 4 86 70 50 4 61 ]
+	B: [ 30 4 79 99 32 58 4 86 70 50 4 61 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 86 1 56 8 86 54 9 94 97 7 79 ]
+	B: [ 86 83 56 8 86 54 9 94 97 7 79 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 16 39 18 28 72 76 84 58 ]
+	B: [ 16 39 18 28 72 76 84 58 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 14 60 23 70 11 65 56 64 21 16 2 27 26 96 76 ]
+	B: [ 14 60 23 70 11 65 56 64 21 16 2 27 26 96 76 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 12 71 11 0 40 2 70 20 74 ]
+	B: [ 12 71 11 0 40 2 70 20 74 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 84 46 91 51 6 ]
+	B: [ 84 69 91 51 6 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 29 33 4 46 35 32 24 83 8 9 11 21 ]
+	B: [ 29 33 4 46 35 32 24 83 8 9 73 21 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 77 43 92 3 42 97 88 88 40 91 94 6 12 ]
+	B: [ 77 43 92 3 42 97 88 88 40 91 94 6 12 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 41 48 93 39 35 77 15 19 86 76 ]
+	B: [ 41 48 93 39 35 77 15 19 86 9 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 84 81 86 27 26 89 22 75 77 10 15 68 57 73 32 72 62 26 ]
+	B: [ 84 81 86 27 26 89 22 75 77 10 15 68 57 73 32 72 62 26 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 17 8 85 33 79 23 61 14 ]
+	B: [ 17 8 71 33 79 23 61 14 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 4 9 45 30 98 67 5 ]
+	B: [ 4 9 45 30 98 67 72 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 87 45 81 59 59 59 84 66 76 ]
+	B: [ 87 45 81 59 59 59 84 66 76 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 9 24 74 71 38 56 93 61 74 49 70 72 ]
+	B: [ 9 24 74 71 38 56 93 61 74 49 70 72 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 91 36 ]
+	B: [ 91 36 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 8 97 ]
+	B: [ 8 30 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 64 89 52 31 66 97 82 27 74 ]
+	B: [ 64 89 52 31 66 97 82 27 74 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 64 17 96 78 92 45 0 16 25 21 7 ]
+	B: [ 64 17 96 78 92 45 0 16 25 21 7 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 29 74 20 ]
+	B: [ 29 74 20 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 2 57 96 92 62 27 58 59 61 37 85 70 88 2 40 84 80 32 29 80 ]
+	B: [ 2 57 96 92 62 27 54 59 61 37 85 70 88 2 40 84 80 32 29 80 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 72 76 36 46 48 74 77 51 ]
+	B: [ 72 76 36 46 48 74 77 51 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 95 93 0 5 5 14 42 42 36 82 44 76 18 24 ]
+	B: [ 95 93 0 5 5 14 42 42 36 82 44 76 57 24 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 6 ]
+	B: [ 6 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 30 39 56 76 88 30 54 91 14 ]
+	B: [ 30 39 56 76 88 30 54 91 14 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 59 80 43 16 46 85 59 82 20 3 11 38 80 71 38 89 84 97 0 ]
+	B: [ 59 80 43 16 46 85 59 82 20 3 11 38 91 71 38 89 84 97 0 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 4 ]
+	B: [ 4 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 10 74 57 89 12 16 69 55 85 15 93 44 ]
+	B: [ 10 74 57 89 12 16 69 55 85 99 93 44 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 3 31 ]
+	B: [ 20 31 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 91 72 72 18 16 33 74 47 76 ]
+	B: [ 91 72 72 18 16 33 74 33 76 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 34 1 95 42 86 63 87 ]
+	B: [ 34 1 95 42 0 63 87 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 74 55 17 58 49 38 27 40 62 51 59 78 84 85 78 ]
+	B: [ 74 55 17 58 49 38 27 0 62 51 59 78 84 85 78 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 48 86 47 95 80 85 ]
+	B: [ 48 20 47 95 80 85 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 19 6 97 75 ]
+	B: [ 19 6 97 75 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 24 13 87 65 76 38 76 6 23 ]
+	B: [ 24 13 87 65 76 38 76 6 23 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 35 35 36 81 35 ]
+	B: [ 35 35 36 81 35 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 31 ]
+	B: [ 31 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 41 23 37 65 94 95 62 69 19 22 46 32 9 63 60 48 39 67 ]
+	B: [ 41 23 37 65 94 95 62 69 19 22 46 32 9 63 60 48 39 67 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 3 58 40 40 39 75 67 19 6 22 37 48 97 ]
+	B: [ 3 44 40 40 39 75 67 19 6 22 37 48 97 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 27 13 93 ]
+	B: [ 27 13 25 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 74 38 11 13 57 34 18 12 93 10 4 84 ]
+	B: [ 74 38 11 13 57 34 18 12 93 10 4 84 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 56 44 46 93 44 43 71 9 39 45 88 53 ]
+	B: [ 56 44 64 93 44 43 71 9 39 45 88 53 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 54 91 54 65 4 63 0 74 75 45 84 80 29 22 51 85 66 ]
+	B: [ 54 91 54 65 4 63 0 74 75 45 84 80 29 22 51 85 66 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 62 93 54 71 32 99 11 37 38 2 54 ]
+	B: [ 62 45 54 71 32 99 11 37 38 2 54 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 73 1 75 25 28 2 70 64 82 0 86 86 37 ]
+	B: [ 73 1 75 25 28 2 70 64 82 0 86 86 68 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 80 22 89 65 73 1 54 ]
+	B: [ 80 22 89 65 73 1 54 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 8 69 63 5 81 88 59 8 14 39 63 84 3 45 36 90 ]
+	B: [ 8 69 63 5 81 88 59 8 14 39 63 84 3 45 36 90 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 46 71 94 13 51 68 54 68 93 55 23 57 62 83 78 ]
+	B: [ 46 71 94 13 51 68 54 68 93 55 23 57 62 83 78 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 12 66 ]
+	B: [ 80 66 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 83 16 94 81 5 84 16 79 31 87 25 96 91 45 50 59 38 58 82 95 ]
+	B: [ 83 16 94 81 5 84 74 79 31 87 25 96 91 45 50 59 38 58 82 95 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 7 86 68 59 58 0 50 94 16 44 27 ]
+	B: [ 7 86 68 59 58 0 50 94 16 44 27 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 43 52 ]
+	B: [ 43 29 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 22 74 62 81 13 72 16 8 45 34 34 47 93 ]
+	B: [ 22 74 62 81 13 72 16 8 45 34 34 52 93 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 15 54 77 83 98 4 57 31 47 61 95 30 ]
+	B: [ 15 54 77 83 98 4 57 31 47 61 95 30 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 4 17 22 38 30 46 54 91 43 40 77 90 33 50 5 37 33 72 91 10 ]
+	B: [ 4 66 22 38 30 46 54 91 43 40 77 90 33 50 5 37 33 72 91 10 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 25 65 30 72 96 73 32 0 91 6 90 73 52 96 64 96 36 94 ]
+	B: [ 25 65 30 72 96 73 32 44 91 6 90 73 52 96 64 96 36 94 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 6 29 68 49 39 ]
+	B: [ 6 29 68 5 39 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 68 70 28 92 18 1 ]
+	B: [ 68 70 28 30 18 1 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 18 83 ]
+	B: [ 31 83 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 28 17 16 72 13 74 53 34 76 92 62 71 49 60 91 ]
+	B: [ 28 17 16 83 13 74 53 34 76 92 62 71 49 60 91 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 89 8 13 ]
+	B: [ 89 27 13 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 73 37 38 4 83 ]
+	B: [ 73 37 38 4 83 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 51 91 39 26 45 73 54 89 36 25 91 96 16 63 36 ]
+	B: [ 51 91 39 26 45 73 54 89 36 25 91 96 16 63 36 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 77 7 23 11 98 50 15 71 39 6 28 22 73 54 26 16 93 52 ]
+	B: [ 77 7 23 11 98 50 15 71 39 6 28 22 73 54 26 16 93 52 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 6 3 3 31 94 51 47 9 ]
+	B: [ 6 3 3 31 94 51 47 9 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 66 16 6 89 80 56 91 47 79 82 53 7 57 78 61 83 95 55 87 ]
+	B: [ 66 16 6 89 80 56 91 47 79 82 53 7 57 78 61 83 95 55 93 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 29 76 5 80 75 66 71 73 33 87 31 74 ]
+	B: [ 29 76 5 80 75 66 71 73 33 87 31 74 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 18 67 67 52 72 74 9 51 ]
+	B: [ 18 67 67 52 98 74 9 51 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 79 6 69 24 18 98 52 75 30 27 42 1 1 27 40 84 ]
+	B: [ 79 6 69 24 18 98 52 75 30 27 42 1 1 27 40 84 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 72 ]
+	B: [ 72 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 39 76 51 65 85 54 5 30 52 0 61 59 69 38 29 67 90 56 49 18 ]
+	B: [ 39 76 51 65 85 54 5 30 52 0 71 59 69 38 29 67 90 56 49 18 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 91 55 83 3 79 6 82 70 82 33 88 20 88 93 2 92 46 63 ]
+	B: [ 91 55 83 3 79 6 82 70 82 33 88 20 88 93 2 92 46 63 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 1 32 35 44 89 36 62 39 ]
+	B: [ 1 32 35 44 89 36 62 39 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 69 30 92 52 33 72 ]
+	B: [ 69 30 92 52 33 94 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 0 82 17 40 28 19 ]
+	B: [ 0 82 17 40 28 19 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 34 36 41 88 69 28 32 10 65 46 1 4 31 70 34 ]
+	B: [ 34 36 41 88 69 28 32 10 65 46 1 4 31 70 34 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 19 47 85 34 94 82 86 76 99 27 4 18 12 30 4 ]
+	B: [ 19 47 85 34 94 82 86 76 99 27 4 18 92 30 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 52 76 31 17 22 33 21 5 55 7 ]
+	B: [ 52 76 31 17 22 33 21 5 55 7 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 26 80 67 12 74 49 99 51 0 78 7 ]
+	B: [ 26 38 67 12 74 49 99 51 0 78 7 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 42 62 67 64 14 43 95 84 66 80 57 23 36 65 4 ]
+	B: [ 42 62 67 64 14 43 95 84 85 80 57 23 36 65 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 56 11 86 7 14 86 ]
+	B: [ 56 11 86 7 14 86 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 56 79 12 ]
+	B: [ 56 79 74 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 37 40 93 85 24 11 65 82 86 53 ]
+	B: [ 37 40 93 85 24 11 65 82 86 53 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 71 42 28 8 98 39 46 57 54 84 94 28 ]
+	B: [ 71 42 28 8 98 39 46 57 54 40 94 28 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 47 66 24 36 ]
+	B: [ 47 21 24 36 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 80 39 65 67 92 64 10 16 6 90 76 57 ]
+	B: [ 80 39 65 67 92 64 10 16 6 90 76 57 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 66 35 59 61 15 52 86 55 27 85 73 51 22 80 21 43 ]
+	B: [ 66 35 59 61 15 52 86 55 27 85 73 51 22 80 21 43 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 34 28 72 79 92 34 95 50 24 23 59 6 98 26 ]
+	B: [ 34 28 72 79 92 34 95 50 24 23 59 6 98 26 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 87 57 14 25 64 41 11 38 44 33 18 ]
+	B: [ 87 57 14 25 64 41 11 38 44 33 18 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 33 71 63 61 43 94 5 78 89 ]
+	B: [ 33 71 63 61 43 94 5 78 89 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 64 67 60 ]
+	B: [ 64 67 60 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 2 77 84 11 91 9 ]
+	B: [ 2 77 84 11 91 9 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 72 65 28 5 35 ]
+	B: [ 72 68 28 5 35 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 1 29 12 95 86 42 36 94 97 52 13 57 67 58 59 44 42 22 ]
+	B: [ 1 29 12 95 86 42 36 94 97 52 13 57 67 58 59 44 42 22 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 98 71 76 15 ]
+	B: [ 98 51 76 15 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 19 19 15 72 1 79 67 ]
+	B: [ 19 19 15 72 1 79 67 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 55 33 19 ]
+	B: [ 55 76 19 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 4 88 72 98 10 59 54 60 31 30 76 31 63 27 29 35 ]
+	B: [ 4 88 72 98 10 59 54 60 31 30 76 31 7 27 29 35 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 75 27 87 97 82 20 68 90 67 97 18 23 85 90 74 47 49 28 60 32 ]
+	B: [ 75 27 87 97 82 20 68 90 15 97 18 23 85 90 74 47 49 28 60 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 15 96 60 65 92 20 ]
+	B: [ 15 96 60 65 92 20 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 47 ]
+	B: [ 81 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 38 24 43 35 42 ]
+	B: [ 38 24 43 35 42 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 84 ]
+	B: [ 84 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 85 73 79 18 83 67 33 8 34 30 21 0 22 41 65 94 40 69 64 73 ]
+	B: [ 85 73 79 18 83 67 33 8 34 30 21 0 22 41 65 94 40 69 64 73 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 97 89 37 ]
+	B: [ 97 89 37 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 9 75 1 80 61 26 60 79 9 ]
+	B: [ 9 75 1 80 61 26 60 79 9 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 69 14 94 90 66 ]
+	B: [ 69 14 94 90 66 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 83 63 75 52 ]
+	B: [ 83 63 75 52 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 97 81 98 86 18 90 94 79 65 47 ]
+	B: [ 97 81 98 86 18 90 94 79 73 47 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 57 ]
+	B: [ 22 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 65 68 94 83 37 ]
+	B: [ 65 53 94 83 37 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 70 32 6 68 14 5 ]
+	B: [ 70 32 6 68 95 5 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 64 12 ]
+	B: [ 91 12 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 96 0 8 47 74 12 65 43 59 48 32 41 67 37 98 ]
+	B: [ 96 0 8 47 74 12 65 43 59 48 32 41 67 37 98 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 5 57 84 10 64 68 57 17 84 69 17 ]
+	B: [ 5 57 84 10 64 68 57 17 43 69 17 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 13 52 56 87 16 21 30 27 21 15 20 88 52 19 78 22 24 ]
+	B: [ 13 52 56 87 16 21 30 27 21 15 20 88 52 19 78 22 24 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 86 99 27 43 16 11 64 86 72 77 29 28 90 33 36 77 2 57 60 ]
+	B: [ 86 99 27 43 16 11 64 86 72 77 29 28 90 33 36 77 2 57 60 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 75 2 71 27 21 49 50 97 85 60 83 36 ]
+	B: [ 75 2 71 27 21 49 50 97 85 60 83 36 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 5 51 90 91 75 19 20 ]
+	B: [ 5 51 90 91 75 19 20 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 6 92 39 8 1 99 89 32 74 91 ]
+	B: [ 6 92 39 64 1 99 89 32 74 91 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 55 61 42 16 44 31 ]
+	B: [ 55 61 42 16 44 31 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 36 6 65 ]
+	B: [ 36 6 65 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 84 99 89 46 57 81 85 65 82 84 7 67 10 98 ]
+	B: [ 84 99 89 46 57 81 85 65 82 84 7 67 10 98 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 15 80 71 76 75 39 73 6 94 95 42 53 12 21 86 49 ]
+	B: [ 15 80 71 76 75 39 73 6 94 95 42 53 12 21 86 95 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 8 80 47 43 16 54 10 78 5 85 93 ]
+	B: [ 8 80 47 16 16 54 10 78 5 85 93 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 92 7 21 98 54 69 92 7 81 ]
+	B: [ 92 7 21 98 54 69 92 7 81 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 30 38 73 25 20 81 ]
+	B: [ 30 38 73 25 20 81 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 76 73 74 38 3 31 23 49 3 41 17 51 33 25 73 32 79 42 76 38 ]
+	B: [ 76 73 74 38 3 31 23 49 3 41 17 51 33 25 73 32 79 42 76 38 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 83 6 32 ]
+	B: [ 83 4 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 41 23 18 ]
+	B: [ 41 57 18 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 32 80 19 35 73 88 87 7 65 60 91 ]
+	B: [ 67 80 19 35 73 88 87 7 65 60 91 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 77 61 18 35 45 26 67 49 20 8 25 39 74 74 96 ]
+	B: [ 77 61 18 35 45 26 67 49 20 28 25 39 74 74 96 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 94 54 56 81 61 21 93 4 ]
+	B: [ 94 54 56 81 61 21 93 23 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 77 85 22 12 30 1 79 32 21 39 57 60 66 ]
+	B: [ 77 85 22 12 30 1 79 32 21 39 57 60 66 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 62 42 89 30 37 43 86 70 56 ]
+	B: [ 62 42 89 30 37 43 86 70 56 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 12 77 11 35 30 ]
+	B: [ 12 77 4 35 30 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 55 5 ]
+	B: [ 55 27 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 44 39 90 79 48 ]
+	B: [ 44 39 90 79 89 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 11 84 20 ]
+	B: [ 11 84 20 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 80 ]
+	B: [ 80 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 9 61 39 91 49 12 96 2 67 1 35 54 80 ]
+	B: [ 9 61 39 91 49 12 96 2 67 1 35 54 80 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 20 1 81 20 53 55 9 88 18 93 60 ]
+	B: [ 20 1 92 20 53 55 9 88 18 93 60 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 89 54 62 28 45 12 40 41 66 7 ]
+	B: [ 89 54 62 28 45 12 40 41 66 7 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 13 75 64 15 47 65 97 19 71 52 28 11 71 73 ]
+	B: [ 13 75 64 15 47 65 97 19 71 52 28 11 71 73 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 10 16 24 99 ]
+	B: [ 10 16 24 80 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 51 20 9 17 80 56 23 45 83 87 61 31 53 58 50 76 ]
+	B: [ 51 20 9 17 80 56 23 87 83 87 61 31 53 58 50 76 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 56 10 8 19 26 33 70 48 72 50 16 23 23 25 ]
+	B: [ 56 10 8 19 26 33 70 81 72 50 16 23 23 25 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 0 64 55 13 47 60 23 50 36 86 33 75 19 89 85 28 ]
+	B: [ 0 64 55 13 13 60 23 50 36 86 33 75 19 89 85 28 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 64 85 81 80 60 4 5 4 11 38 20 12 ]
+	B: [ 64 85 81 80 60 4 5 4 11 38 20 12 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 77 2 87 1 52 23 87 85 ]
+	B: [ 77 2 87 1 52 23 27 85 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 86 87 51 99 18 16 36 52 96 96 8 54 1 20 92 73 ]
+	B: [ 86 87 51 99 18 16 36 52 96 96 8 0 1 20 92 73 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 2 39 ]
+	B: [ 62 39 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 44 12 8 23 47 94 62 99 94 33 ]
+	B: [ 44 12 8 23 47 94 62 99 94 33 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 85 63 79 93 69 32 13 14 57 97 13 ]
+	B: [ 85 63 79 93 69 32 13 14 57 97 13 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 67 48 73 74 10 75 70 74 83 45 21 29 ]
+	B: [ 67 48 73 74 10 75 70 74 83 45 21 29 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 75 40 39 6 77 55 37 71 24 69 36 38 78 ]
+	B: [ 75 40 87 6 77 55 37 71 24 69 36 38 78 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 71 35 22 97 97 97 67 71 32 64 44 62 24 69 89 64 8 95 ]
+	B: [ 71 35 22 97 97 97 67 71 32 64 44 62 24 84 89 64 8 95 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 92 5 1 82 83 87 ]
+	B: [ 92 5 36 82 83 87 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 57 59 55 54 8 75 77 93 39 22 55 15 91 96 80 51 92 74 19 ]
+	B: [ 57 59 55 54 8 75 77 93 39 22 55 15 91 96 80 51 11 74 19 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 92 45 17 80 32 40 68 90 97 27 97 4 36 72 33 ]
+	B: [ 92 45 17 80 32 40 68 90 97 27 97 4 36 72 33 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 7 36 79 98 32 ]
+	B: [ 7 36 79 98 32 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 76 37 73 ]
+	B: [ 76 37 73 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 36 91 21 81 8 53 13 48 21 55 46 49 5 2 37 29 35 ]
+	B: [ 36 91 21 81 8 53 13 48 21 55 43 49 5 2 37 29 35 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 25 93 90 88 47 67 26 ]
+	B: [ 25 93 90 88 54 67 26 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 15 27 90 75 80 55 24 2 11 22 51 16 76 40 45 11 58 ]
+	B: [ 15 27 90 75 80 55 24 2 11 22 51 16 76 40 45 11 58 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 16 68 0 6 8 99 25 ]
+	B: [ 16 68 0 6 8 49 25 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 28 16 20 70 44 1 26 68 3 89 42 6 57 70 ]
+	B: [ 28 16 20 70 44 1 26 68 3 89 42 6 81 70 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 45 40 24 65 40 30 26 39 56 ]
+	B: [ 45 40 57 65 40 30 26 39 56 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 92 26 78 62 70 79 ]
+	B: [ 92 26 34 62 70 79 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 32 40 86 2 38 41 35 98 38 75 ]
+	B: [ 32 40 86 2 38 41 67 98 38 75 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 82 59 60 46 70 70 52 14 96 30 29 66 61 ]
+	B: [ 82 59 60 46 70 70 52 14 96 30 29 66 61 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 95 99 40 87 37 94 77 78 29 75 69 57 97 25 24 1 7 ]
+	B: [ 95 99 40 87 37 94 77 78 29 75 69 57 97 25 24 1 7 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 5 6 32 ]
+	B: [ 5 6 32 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 80 91 1 46 52 71 54 47 22 94 34 59 88 ]
+	B: [ 80 91 1 46 52 71 54 47 22 94 34 59 88 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 69 38 59 26 35 84 3 37 43 86 51 48 44 35 58 17 15 49 18 ]
+	B: [ 69 38 59 26 35 84 3 37 43 86 51 48 44 35 58 17 15 49 18 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 41 15 53 63 61 88 23 49 51 13 18 90 72 97 77 ]
+	B: [ 41 15 53 63 61 88 23 49 51 13 14 90 72 97 77 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 38 17 51 83 52 61 52 67 11 70 80 17 ]
+	B: [ 38 17 51 70 52 61 52 67 11 70 80 17 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 8 10 2 9 62 67 80 4 ]
+	B: [ 8 10 2 9 62 67 80 4 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 33 99 29 0 50 67 17 54 2 22 15 54 41 78 77 22 95 41 ]
+	B: [ 33 99 29 0 50 67 17 54 2 22 15 54 41 78 77 22 95 41 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 20 82 76 23 43 90 90 ]
+	B: [ 20 82 76 23 43 90 90 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 82 52 80 81 81 80 84 ]
+	B: [ 82 52 80 81 81 80 84 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 38 3 71 53 10 13 32 87 87 27 28 60 93 48 42 22 23 86 ]
+	B: [ 61 3 71 53 10 13 32 87 87 27 28 60 93 48 42 22 23 86 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 48 14 39 29 47 71 13 48 20 51 4 92 57 14 5 89 1 92 68 81 ]
+	B: [ 48 14 39 29 47 71 13 48 20 51 4 92 57 14 81 89 1 92 68 81 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 36 5 85 0 71 46 59 19 ]
+	B: [ 36 5 48 0 71 46 59 19 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 21 ]
+	B: [ 42 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 12 86 74 78 91 15 79 35 36 12 39 50 94 38 38 99 23 38 ]
+	B: [ 12 86 74 78 91 15 79 35 36 12 39 50 50 38 38 99 23 38 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 82 52 ]
+	B: [ 82 52 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 26 7 51 ]
+	B: [ 15 7 51 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 99 94 97 67 25 84 3 ]
+	B: [ 53 94 97 67 25 84 3 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 14 43 83 37 33 5 7 35 98 90 88 91 32 ]
+	B: [ 14 43 83 37 33 5 7 35 98 35 88 91 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 24 3 92 75 97 41 42 ]
+	B: [ 24 3 92 75 97 41 97 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 0 2 44 14 45 79 4 31 36 11 66 34 53 ]
+	B: [ 0 2 44 14 38 79 4 31 36 11 66 34 53 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 77 ]
+	B: [ 77 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 1 28 50 28 77 91 23 ]
+	B: [ 20 28 50 28 77 91 23 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 69 23 61 35 20 ]
+	B: [ 69 51 61 35 20 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 55 18 63 8 24 41 98 97 18 24 55 71 52 6 0 30 49 23 ]
+	B: [ 55 18 63 8 24 41 98 97 18 24 55 71 52 6 0 30 95 23 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 39 70 59 26 91 52 18 94 81 73 64 44 33 89 86 32 38 56 8 ]
+	B: [ 39 70 59 26 91 52 18 94 81 73 64 44 33 89 86 32 38 56 8 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 12 51 80 42 1 55 76 19 50 ]
+	B: [ 12 51 80 42 1 55 76 19 50 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 21 86 36 64 38 54 10 19 79 75 16 ]
+	B: [ 21 86 36 64 38 54 10 19 79 75 16 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 54 97 54 10 57 99 90 69 51 70 64 52 25 92 23 28 19 ]
+	B: [ 54 97 54 10 57 99 90 69 51 70 64 52 25 92 23 28 19 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 6 21 ]
+	B: [ 6 21 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 28 27 68 7 54 84 72 70 90 21 76 0 78 28 91 0 79 ]
+	B: [ 28 27 68 7 54 84 72 70 90 21 76 0 78 28 91 0 79 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 83 91 8 58 19 ]
+	B: [ 83 91 8 20 19 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 64 89 82 92 16 2 0 ]
+	B: [ 64 89 82 92 16 2 0 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 24 93 28 98 22 29 76 50 72 28 81 37 44 64 28 53 74 99 81 ]
+	B: [ 24 93 28 98 22 29 76 50 72 28 81 37 44 64 28 53 74 99 81 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 67 81 60 1 74 77 56 26 0 94 2 45 ]
+	B: [ 67 81 60 1 74 77 56 26 0 94 2 45 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 19 ]
+	B: [ 69 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 57 2 13 2 66 94 55 92 93 88 9 65 7 91 77 60 17 ]
+	B: [ 43 2 13 2 66 94 55 92 93 88 9 65 7 91 77 60 17 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 11 45 4 34 98 23 38 ]
+	B: [ 11 45 4 34 98 23 38 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 66 84 47 31 38 14 25 45 58 71 33 68 88 92 ]
+	B: [ 66 84 47 31 38 14 25 45 58 71 33 68 88 92 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 53 76 72 21 71 30 ]
+	B: [ 34 76 72 21 71 30 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 66 58 8 93 3 74 30 50 6 68 16 83 14 75 54 99 43 42 92 ]
+	B: [ 66 58 8 93 97 74 30 50 6 68 16 83 14 75 54 99 43 42 92 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 32 18 5 ]
+	B: [ 32 18 73 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 21 92 7 30 37 10 56 67 12 62 36 29 46 2 56 52 53 99 ]
+	B: [ 21 92 7 30 37 10 56 67 12 62 36 29 46 2 56 52 53 99 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 5 7 94 87 91 65 ]
+	B: [ 5 68 94 87 91 65 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 2 41 9 9 23 47 71 80 66 36 94 54 65 40 56 73 45 10 ]
+	B: [ 2 41 9 9 23 47 71 80 66 36 7 54 65 40 56 73 45 10 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 51 54 68 42 19 60 95 87 29 50 ]
+	B: [ 51 11 68 42 19 60 95 87 29 50 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 90 35 84 56 71 ]
+	B: [ 90 88 84 56 71 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 19 61 16 81 85 60 89 66 11 43 34 53 ]
+	B: [ 19 61 16 81 85 60 89 66 11 43 0 53 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 75 50 ]
+	B: [ 75 50 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 62 85 8 49 69 17 20 0 28 60 71 99 21 39 81 58 99 22 24 ]
+	B: [ 62 85 8 49 69 17 20 0 58 60 71 99 21 39 81 58 99 22 24 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 31 4 63 84 ]
+	B: [ 31 4 63 84 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 65 50 80 3 58 29 24 ]
+	B: [ 65 50 80 3 58 29 24 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 24 55 61 47 7 82 86 88 92 85 ]
+	B: [ 24 55 61 47 7 82 95 88 92 85 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 26 10 14 30 74 98 61 92 15 11 72 18 ]
+	B: [ 26 10 14 30 74 95 61 92 15 11 72 18 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 2 19 5 63 67 64 97 53 4 89 ]
+	B: [ 2 19 5 63 67 64 97 53 4 89 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 5 38 49 31 49 63 13 ]
+	B: [ 5 38 49 31 49 63 13 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 26 67 28 90 39 99 12 92 46 13 94 65 70 9 ]
+	B: [ 26 67 28 90 39 99 12 92 46 13 6 65 70 9 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 38 95 81 56 52 19 5 35 68 68 0 95 33 26 14 14 68 53 65 ]
+	B: [ 38 95 81 56 52 19 5 11 68 68 0 95 33 26 14 14 68 53 65 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 91 76 16 0 61 51 58 ]
+	B: [ 91 76 16 0 61 51 58 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 5 84 ]
+	B: [ 5 3 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 44 24 24 96 ]
+	B: [ 44 24 24 96 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 75 34 23 43 39 88 76 37 99 22 80 28 90 33 41 41 91 92 ]
+	B: [ 75 34 23 43 39 88 76 37 99 22 80 28 90 33 41 41 91 92 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 76 33 6 31 88 3 55 12 99 27 22 26 13 45 70 52 34 46 ]
+	B: [ 76 33 6 31 88 3 55 12 99 27 22 26 13 45 70 52 34 46 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 20 22 13 10 55 54 ]
+	B: [ 20 22 46 10 55 54 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 95 74 72 54 6 60 57 13 25 8 40 99 35 53 44 57 58 30 3 99 ]
+	B: [ 95 74 72 73 6 60 57 13 25 8 40 99 35 53 44 57 58 30 3 99 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 85 80 84 89 79 82 28 26 9 52 ]
+	B: [ 85 80 84 89 79 82 28 65 9 52 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 80 90 50 73 89 37 78 85 94 36 ]
+	B: [ 80 90 50 73 89 37 78 85 94 88 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 24 13 61 9 46 97 99 25 32 79 3 41 32 ]
+	B: [ 24 13 97 9 46 97 99 25 32 79 3 41 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 40 39 75 65 80 12 ]
+	B: [ 40 39 75 65 80 58 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 81 7 72 65 31 86 79 93 32 76 92 9 8 ]
+	B: [ 81 7 72 65 31 86 79 93 32 76 92 9 8 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 1 55 0 9 4 ]
+	B: [ 1 55 43 9 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 67 23 18 63 41 76 96 22 84 20 40 67 6 19 ]
+	B: [ 67 23 18 63 47 76 96 22 84 20 40 67 6 19 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 51 8 28 16 9 ]
+	B: [ 51 8 28 16 9 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 71 88 94 73 83 48 92 59 66 56 0 42 4 74 78 24 14 ]
+	B: [ 71 88 94 73 83 48 92 59 66 56 0 42 4 74 78 24 33 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 25 33 63 77 41 43 45 50 26 13 21 66 8 46 2 8 91 61 74 ]
+	B: [ 25 33 63 77 41 43 45 50 26 13 21 66 8 46 2 8 91 61 74 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 68 3 ]
+	B: [ 68 3 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 27 50 97 10 35 7 88 68 22 65 61 65 62 12 44 75 85 62 35 84 ]
+	B: [ 27 50 97 75 35 7 88 68 22 65 61 65 62 12 44 75 85 62 35 84 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 69 74 86 90 77 74 ]
+	B: [ 69 74 86 90 77 74 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 76 38 67 63 45 ]
+	B: [ 76 38 67 63 45 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 20 72 45 85 86 ]
+	B: [ 20 72 45 85 86 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 13 95 ]
+	B: [ 13 79 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 44 54 86 66 80 24 56 57 98 ]
+	B: [ 44 54 86 66 80 24 56 57 98 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 26 35 32 90 80 39 74 52 63 19 38 49 29 71 ]
+	B: [ 26 35 32 90 80 39 74 52 63 19 38 49 29 71 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 15 64 55 76 60 61 62 26 41 38 82 50 89 79 63 15 14 ]
+	B: [ 15 64 47 76 60 61 62 26 41 38 82 50 89 79 63 15 14 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 31 99 99 3 89 0 84 61 15 12 28 31 67 56 92 80 ]
+	B: [ 31 99 99 3 89 0 84 61 15 12 73 31 67 56 92 80 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 53 23 98 84 86 13 99 34 23 98 ]
+	B: [ 53 23 98 84 86 13 49 34 23 98 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 9 91 73 45 4 41 57 32 72 76 41 64 8 11 ]
+	B: [ 9 91 73 45 4 41 57 32 72 76 41 64 8 11 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 20 40 ]
+	B: [ 24 40 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 84 75 29 7 ]
+	B: [ 84 75 29 7 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 13 75 76 75 66 2 72 22 43 82 6 15 ]
+	B: [ 13 75 76 32 66 2 72 22 43 82 6 15 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 59 19 52 79 59 9 50 83 4 34 59 33 93 84 37 58 11 13 85 29 ]
+	B: [ 59 19 52 79 59 9 50 83 4 34 59 33 93 84 37 58 11 13 85 29 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 51 58 92 58 26 2 5 58 73 64 77 26 96 88 35 46 71 91 32 ]
+	B: [ 51 58 25 58 26 2 5 58 73 64 77 26 96 88 35 46 71 91 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 61 35 30 27 21 12 42 31 63 53 23 21 79 77 79 89 51 43 18 29 ]
+	B: [ 61 35 30 27 21 12 42 31 63 53 23 21 79 77 79 89 51 43 18 29 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 16 37 29 7 69 12 83 ]
+	B: [ 16 37 29 7 97 12 83 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 65 24 55 ]
+	B: [ 65 24 55 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 38 41 71 61 14 2 90 93 43 93 89 61 22 80 67 90 18 97 97 ]
+	B: [ 38 41 71 61 14 2 90 93 43 93 89 61 22 80 67 90 18 97 97 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 33 86 ]
+	B: [ 20 86 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 54 27 ]
+	B: [ 54 27 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 65 32 96 78 46 50 20 40 94 14 81 7 88 ]
+	B: [ 65 32 96 78 46 50 20 40 94 14 81 7 88 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 79 31 24 28 71 37 61 9 81 43 81 42 97 8 33 22 ]
+	B: [ 79 31 24 28 71 37 61 9 81 43 81 42 97 8 33 22 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 18 3 12 20 75 4 ]
+	B: [ 18 37 12 20 75 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 30 98 49 ]
+	B: [ 30 98 49 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 25 89 1 62 3 62 95 46 43 89 96 ]
+	B: [ 25 89 1 62 3 62 95 46 43 89 96 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 18 76 40 88 ]
+	B: [ 18 76 40 88 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 60 6 60 27 48 ]
+	B: [ 60 6 60 27 48 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 78 96 ]
+	B: [ 78 78 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 80 31 89 83 93 36 82 36 ]
+	B: [ 80 31 89 83 93 36 82 36 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 87 0 48 15 41 88 98 97 48 56 58 ]
+	B: [ 87 0 48 15 41 88 98 97 48 56 58 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 55 28 34 3 78 25 81 57 6 12 98 41 5 34 23 41 12 ]
+	B: [ 55 28 34 3 78 25 81 57 6 12 98 41 5 34 23 41 12 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 64 ]
+	B: [ 64 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 57 93 97 55 94 6 13 21 ]
+	B: [ 50 93 97 55 94 6 13 21 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 24 80 74 5 38 80 18 36 22 75 ]
+	B: [ 24 80 74 5 38 80 18 36 22 75 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 17 35 3 49 99 8 49 57 2 46 12 96 52 77 69 15 97 19 ]
+	B: [ 17 35 3 49 99 8 49 57 2 46 12 0 52 77 69 15 97 19 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 79 38 71 97 26 45 24 49 42 93 84 ]
+	B: [ 79 38 71 97 26 45 24 49 42 93 84 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 36 6 92 93 ]
+	B: [ 36 6 57 93 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 43 34 25 10 31 97 26 5 97 16 84 87 39 33 65 84 57 ]
+	B: [ 43 34 25 10 31 97 26 5 97 16 84 87 39 33 65 84 57 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 51 51 76 46 39 34 38 84 94 28 41 2 23 27 80 33 59 77 11 16 ]
+	B: [ 51 51 76 46 39 34 38 84 0 28 41 2 23 27 80 33 59 77 11 16 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 19 85 30 4 42 97 ]
+	B: [ 19 85 30 4 42 97 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 1 63 91 92 50 81 ]
+	B: [ 1 63 91 92 50 81 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 62 18 47 85 46 ]
+	B: [ 62 18 47 85 46 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 57 4 34 25 82 14 77 47 34 62 29 90 ]
+	B: [ 57 4 34 25 82 14 77 47 34 62 29 25 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 80 40 45 ]
+	B: [ 80 79 45 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 35 41 ]
+	B: [ 78 41 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 13 49 75 69 36 52 51 50 29 98 84 91 79 74 99 58 51 1 90 ]
+	B: [ 13 49 75 69 36 63 51 50 29 98 84 91 79 74 99 58 51 1 90 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 78 64 21 71 36 7 49 54 20 51 81 89 87 33 40 ]
+	B: [ 78 64 21 71 36 7 49 54 20 51 81 89 87 33 40 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 90 22 5 70 48 5 80 52 58 71 96 9 86 82 39 ]
+	B: [ 90 22 5 70 48 5 10 52 58 71 96 9 86 82 39 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 63 60 45 84 63 79 73 50 64 66 87 79 8 61 36 78 62 93 11 14 ]
+	B: [ 63 60 62 84 63 79 73 50 64 66 87 79 8 61 36 78 62 93 11 14 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 68 44 5 70 0 15 61 16 27 7 0 90 38 25 ]
+	B: [ 68 44 43 70 0 15 61 16 27 7 0 90 38 25 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 33 52 93 70 82 7 15 93 73 19 27 35 85 ]
+	B: [ 33 52 93 70 82 7 15 93 73 19 27 35 85 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 90 66 84 57 79 0 37 86 52 27 76 30 20 ]
+	B: [ 90 66 84 57 79 0 37 86 52 27 76 30 20 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 52 64 77 97 34 12 57 2 57 30 21 85 18 58 ]
+	B: [ 52 64 77 97 0 12 57 2 57 30 21 85 18 58 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 86 58 78 87 95 16 91 74 93 21 46 24 47 50 88 76 0 75 88 ]
+	B: [ 86 58 78 87 95 16 91 74 93 21 46 24 47 50 88 76 0 75 88 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 46 39 50 31 9 9 63 11 9 62 98 19 40 37 66 8 28 93 ]
+	B: [ 46 39 50 31 9 9 63 11 9 62 98 19 40 37 66 8 28 93 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 39 77 49 ]
+	B: [ 39 77 25 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 41 66 51 ]
+	B: [ 41 90 51 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 95 52 29 58 63 91 20 13 10 ]
+	B: [ 95 52 29 58 63 91 77 13 10 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 31 70 26 33 61 4 34 3 70 11 45 63 77 96 ]
+	B: [ 31 70 26 33 61 4 34 3 70 11 45 63 77 96 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 39 53 ]
+	B: [ 39 83 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 54 74 19 68 36 84 70 65 ]
+	B: [ 54 74 19 68 36 84 70 65 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 87 83 ]
+	B: [ 87 87 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 52 9 36 50 24 65 46 9 7 37 63 47 28 ]
+	B: [ 52 9 36 50 24 65 35 9 7 37 63 47 28 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 14 3 60 98 25 ]
+	B: [ 14 3 79 98 25 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 90 17 14 30 90 67 91 26 69 16 91 15 77 50 ]
+	B: [ 90 17 14 30 90 67 91 26 69 16 91 15 77 50 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 98 ]
+	B: [ 98 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 44 68 14 10 23 75 8 49 53 67 28 66 58 97 33 40 87 0 31 ]
+	B: [ 44 68 14 10 23 75 8 49 53 67 28 66 58 97 33 40 87 0 31 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 99 9 ]
+	B: [ 99 59 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 69 9 ]
+	B: [ 69 9 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 54 ]
+	B: [ 54 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 64 19 49 25 20 2 92 0 21 2 97 54 42 37 6 ]
+	B: [ 64 19 49 25 20 2 92 79 21 2 97 54 42 37 6 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 11 15 54 23 9 24 84 36 84 90 83 10 55 54 60 32 74 14 ]
+	B: [ 11 15 54 23 87 24 84 36 84 90 83 10 55 54 60 32 74 14 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 24 93 73 61 51 51 15 30 29 27 98 83 ]
+	B: [ 24 93 73 61 51 51 15 30 29 27 98 59 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 47 95 77 30 6 84 85 ]
+	B: [ 47 95 77 30 6 84 11 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 44 38 72 75 62 65 1 75 69 52 90 99 81 ]
+	B: [ 44 38 72 75 62 65 1 75 69 52 90 99 81 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 17 23 8 28 10 55 24 39 86 82 ]
+	B: [ 17 23 8 28 10 55 24 39 86 82 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 0 43 86 84 ]
+	B: [ 0 43 86 84 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 56 15 38 74 68 ]
+	B: [ 56 15 38 74 68 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 20 56 94 54 ]
+	B: [ 20 56 94 54 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 23 1 52 51 63 ]
+	B: [ 23 1 2 51 63 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 9 77 21 9 20 7 94 59 84 2 74 22 76 42 88 71 15 96 66 ]
+	B: [ 9 77 21 9 20 7 94 59 84 2 74 22 76 42 88 71 15 96 66 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 62 44 26 14 95 89 ]
+	B: [ 62 44 26 14 95 43 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 84 20 97 46 92 ]
+	B: [ 84 20 97 46 92 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 52 41 94 78 15 23 73 55 94 88 51 12 61 ]
+	B: [ 52 41 94 78 15 23 73 55 94 88 51 12 61 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 5 55 41 52 97 19 27 40 44 64 13 41 10 5 98 ]
+	B: [ 5 55 41 52 97 19 27 40 44 64 13 41 10 5 91 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 88 7 71 61 62 66 1 66 30 62 95 57 67 50 50 71 99 ]
+	B: [ 88 7 71 61 62 66 1 66 30 62 95 57 67 50 50 71 99 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 92 65 63 5 7 73 62 57 27 72 49 23 12 56 95 73 70 13 74 36 ]
+	B: [ 92 65 63 5 7 73 62 57 27 72 49 23 12 56 95 73 70 13 74 36 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 31 4 55 34 54 26 33 76 77 25 41 92 82 48 17 97 6 ]
+	B: [ 31 4 55 34 54 26 33 76 77 25 41 92 82 48 7 97 6 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 33 ]
+	B: [ 33 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 6 33 80 32 22 27 68 5 ]
+	B: [ 6 33 80 32 22 27 68 39 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 1 25 14 31 50 8 23 85 56 41 82 14 85 3 21 5 36 36 24 ]
+	B: [ 1 25 14 31 50 8 23 85 56 41 82 14 85 3 21 5 56 36 24 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 44 84 46 49 68 21 41 ]
+	B: [ 44 84 46 49 68 66 41 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 5 68 81 29 5 89 22 87 56 59 42 29 17 30 ]
+	B: [ 5 68 81 24 5 89 22 87 56 59 42 29 17 30 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 98 ]
+	B: [ 82 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 85 50 21 78 8 96 44 81 53 ]
+	B: [ 85 50 21 78 8 96 44 81 53 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 82 70 4 56 10 60 16 4 89 33 35 7 74 59 47 ]
+	B: [ 82 70 4 56 10 60 16 4 89 31 35 7 74 59 47 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 62 69 8 36 47 17 32 ]
+	B: [ 62 69 8 37 47 17 32 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 65 72 ]
+	B: [ 65 72 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 28 45 81 44 50 70 77 85 78 4 ]
+	B: [ 28 45 81 44 50 70 77 76 78 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 61 35 25 30 43 61 29 12 45 25 63 ]
+	B: [ 61 35 80 30 43 61 29 12 45 25 63 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 22 49 35 67 82 79 69 ]
+	B: [ 22 54 35 67 82 79 69 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 13 3 12 ]
+	B: [ 13 3 12 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 73 76 90 3 20 3 84 32 0 62 47 83 0 27 ]
+	B: [ 73 76 90 3 20 3 84 32 0 62 47 83 0 27 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 28 76 42 ]
+	B: [ 28 76 11 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 17 18 49 30 21 61 71 86 34 48 77 89 20 80 74 52 ]
+	B: [ 17 18 49 30 21 61 71 86 34 48 77 89 20 80 74 52 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 0 16 36 27 57 11 56 86 5 18 42 68 33 11 86 83 41 ]
+	B: [ 0 16 36 27 57 11 56 86 5 18 42 68 33 11 86 83 41 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 64 46 31 12 23 20 32 55 46 37 88 34 37 56 23 16 66 ]
+	B: [ 64 46 31 12 23 20 32 55 52 37 88 34 37 56 23 16 66 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 43 94 59 76 5 46 11 98 5 8 62 51 ]
+	B: [ 43 94 59 76 5 46 11 98 5 8 62 51 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 26 11 11 34 10 48 22 44 ]
+	B: [ 26 11 11 34 10 48 22 44 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 67 54 97 53 30 49 44 73 95 4 2 52 ]
+	B: [ 67 54 97 53 30 50 44 73 95 4 2 52 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 73 64 11 16 91 37 80 55 ]
+	B: [ 73 64 11 16 91 37 80 55 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 3 98 34 93 29 54 99 26 59 29 75 ]
+	B: [ 3 98 34 93 29 54 99 26 22 29 75 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 57 ]
+	B: [ 74 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 69 0 40 32 16 84 22 96 39 45 86 94 43 73 39 72 79 ]
+	B: [ 69 0 40 32 16 84 22 96 39 45 86 94 43 73 39 72 38 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 77 42 75 99 54 84 73 16 58 ]
+	B: [ 77 42 75 99 54 84 73 16 58 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 58 42 70 75 78 44 23 69 90 10 63 85 35 55 10 14 93 60 4 ]
+	B: [ 58 42 70 75 78 44 23 69 90 10 63 85 35 55 10 14 93 60 4 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 99 88 37 53 72 63 70 83 64 60 41 6 82 68 36 27 92 5 69 ]
+	B: [ 99 88 37 53 72 63 70 83 64 60 41 6 82 68 36 54 92 5 69 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 76 16 55 69 77 59 35 67 58 23 ]
+	B: [ 76 16 48 69 77 59 35 67 58 23 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 34 31 36 46 72 94 28 93 31 7 85 36 76 39 9 83 28 85 99 35 ]
+	B: [ 34 31 36 46 72 94 28 93 31 7 85 36 76 39 9 83 28 85 99 35 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 94 42 95 53 17 4 17 65 75 ]
+	B: [ 94 42 95 53 17 4 17 65 75 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 11 49 73 6 77 66 37 85 3 ]
+	B: [ 11 49 73 6 77 66 37 85 3 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 42 35 96 22 72 48 57 31 28 51 73 24 56 43 ]
+	B: [ 42 35 96 22 72 48 57 31 28 60 73 24 56 43 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 28 9 67 77 34 73 55 0 62 92 3 87 57 97 74 54 ]
+	B: [ 28 9 67 77 34 73 55 0 62 92 3 87 57 97 74 54 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 54 28 78 82 31 4 58 40 ]
+	B: [ 54 28 78 82 31 4 58 40 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 65 59 46 94 20 13 71 54 38 78 6 52 70 61 39 28 58 66 34 ]
+	B: [ 65 59 46 94 20 13 71 54 38 78 6 52 70 61 39 28 58 66 34 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 40 9 43 22 41 99 ]
+	B: [ 40 9 43 22 41 99 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 50 23 ]
+	B: [ 69 23 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 82 ]
+	B: [ 89 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 42 95 24 65 9 16 45 67 82 31 49 47 71 ]
+	B: [ 42 95 24 65 9 45 45 67 82 31 49 47 71 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 94 78 32 44 2 31 6 71 23 41 6 87 ]
+	B: [ 94 78 32 44 2 31 6 71 23 41 30 87 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 55 95 86 23 92 6 5 23 7 4 94 65 46 91 69 40 70 1 ]
+	B: [ 55 95 86 23 92 6 5 23 7 4 94 65 46 91 69 40 70 1 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 84 43 95 8 84 ]
+	B: [ 84 43 95 8 84 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 66 84 77 44 91 24 82 14 16 40 71 39 47 75 85 65 ]
+	B: [ 66 84 77 44 91 24 82 14 16 40 71 39 47 75 85 65 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 34 14 99 87 51 23 72 46 70 32 31 24 27 49 60 5 93 51 ]
+	B: [ 34 14 99 87 51 23 72 46 70 32 31 24 27 49 60 5 93 51 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 17 98 68 88 89 16 63 75 81 36 4 67 50 3 54 53 26 ]
+	B: [ 96 98 68 88 89 16 63 75 81 36 4 67 50 3 54 53 26 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 35 72 38 84 84 95 78 35 28 6 4 ]
+	B: [ 35 72 38 84 84 95 78 35 28 92 4 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 42 7 43 75 44 99 42 46 2 97 0 80 27 52 28 38 87 ]
+	B: [ 42 7 43 75 44 99 42 46 2 97 0 80 27 52 28 38 87 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 23 85 23 1 73 3 59 29 30 ]
+	B: [ 23 85 23 1 73 3 98 29 30 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 29 93 4 25 92 98 72 46 95 ]
+	B: [ 29 93 4 23 92 98 72 46 95 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 54 13 67 7 41 90 45 16 92 ]
+	B: [ 54 13 67 7 41 90 45 16 3 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 1 89 21 99 70 3 44 26 28 36 24 52 82 72 76 60 47 4 15 60 ]
+	B: [ 1 89 21 99 70 3 44 26 28 36 24 52 82 72 76 60 47 4 15 60 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 1 62 19 69 6 89 88 9 41 90 51 62 41 73 17 ]
+	B: [ 1 62 19 69 6 89 88 9 41 98 51 62 41 73 17 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 75 50 57 ]
+	B: [ 75 50 57 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 17 46 31 84 6 3 11 59 ]
+	B: [ 17 46 31 84 6 3 11 59 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 28 23 72 69 84 13 59 87 27 0 60 ]
+	B: [ 28 23 72 69 84 13 59 87 27 0 60 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 11 95 13 87 45 70 86 72 39 33 56 76 91 11 87 51 28 69 31 ]
+	B: [ 11 95 13 87 45 70 86 72 39 33 56 76 91 11 87 51 28 69 31 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 0 87 ]
+	B: [ 0 75 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 64 87 83 2 99 78 15 ]
+	B: [ 64 87 37 2 99 78 15 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 48 77 9 4 53 53 15 40 56 95 9 87 98 3 40 85 61 ]
+	B: [ 48 77 9 4 53 53 15 40 56 95 9 87 98 3 40 85 61 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 47 ]
+	B: [ 47 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 30 ]
+	B: [ 8 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 37 84 75 13 32 52 75 88 57 80 55 49 36 50 10 75 48 65 ]
+	B: [ 37 84 75 13 32 52 75 88 57 80 55 49 36 50 10 75 48 65 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 27 71 98 74 38 98 ]
+	B: [ 27 71 98 74 38 98 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 49 ]
+	B: [ 49 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 38 49 73 3 33 77 78 21 86 58 28 35 46 30 97 22 30 63 89 ]
+	B: [ 38 49 73 3 33 77 78 21 86 58 28 35 46 30 97 12 30 63 89 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 64 51 64 21 63 13 87 61 51 88 86 54 22 15 85 ]
+	B: [ 64 51 64 21 63 13 87 61 51 88 86 54 22 15 85 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 95 76 ]
+	B: [ 6 76 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 16 37 49 57 53 39 70 ]
+	B: [ 16 37 49 57 53 39 70 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 73 35 29 36 48 68 50 51 56 88 5 30 56 42 78 9 ]
+	B: [ 73 35 29 36 48 68 50 51 56 88 98 30 56 42 78 9 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 60 84 0 97 85 57 2 76 79 73 83 52 8 ]
+	B: [ 60 84 0 97 85 56 2 76 79 73 83 52 8 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 91 ]
+	B: [ 91 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 31 17 19 87 59 97 97 49 3 95 ]
+	B: [ 31 17 19 87 59 97 97 49 3 95 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 31 33 13 68 43 ]
+	B: [ 31 74 13 68 43 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 79 79 50 44 20 58 24 63 18 65 ]
+	B: [ 79 79 50 44 20 85 24 63 18 65 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 46 34 31 96 38 78 81 54 61 67 67 81 62 35 77 ]
+	B: [ 46 34 56 96 38 78 81 54 61 67 67 81 62 35 77 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 27 0 35 37 77 98 55 42 45 42 79 79 89 66 62 37 ]
+	B: [ 18 0 35 37 77 98 55 42 45 42 79 79 89 66 62 37 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 53 85 29 34 47 17 11 36 94 19 51 ]
+	B: [ 53 85 29 34 47 17 11 36 94 19 51 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 39 10 49 37 18 43 34 60 75 13 49 41 75 ]
+	B: [ 39 10 49 37 18 43 34 60 75 13 49 41 67 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 59 20 94 88 54 94 5 17 30 51 37 33 76 9 72 39 10 62 ]
+	B: [ 59 20 94 88 54 94 5 17 30 51 37 33 76 9 72 39 10 62 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 96 69 80 62 71 73 ]
+	B: [ 96 69 80 62 71 73 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 22 9 66 81 29 13 70 36 7 27 ]
+	B: [ 22 9 66 81 29 13 70 36 7 27 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 31 42 22 7 3 47 46 65 9 55 ]
+	B: [ 31 42 22 7 3 47 46 65 9 55 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 25 3 71 48 77 61 57 51 22 76 33 51 89 55 39 48 82 97 ]
+	B: [ 25 3 71 48 77 61 57 51 22 76 33 51 89 55 39 48 82 97 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 91 63 73 95 10 71 ]
+	B: [ 91 63 73 95 10 79 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 29 56 39 0 4 68 13 61 19 35 37 4 39 78 59 30 ]
+	B: [ 29 56 39 0 4 68 27 61 19 35 37 4 39 78 59 30 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 59 19 31 84 66 93 56 78 ]
+	B: [ 59 19 31 84 66 93 56 78 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 14 94 43 5 46 99 73 12 ]
+	B: [ 14 94 43 5 47 99 73 12 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 49 38 80 60 69 59 54 48 26 14 67 ]
+	B: [ 49 38 80 60 69 59 54 48 26 14 67 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 33 3 6 64 68 93 78 14 88 83 60 87 8 72 0 4 72 2 5 ]
+	B: [ 33 3 6 64 68 93 78 14 88 83 60 87 8 72 0 4 72 66 5 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 93 20 80 72 86 47 81 85 33 84 43 97 ]
+	B: [ 93 20 80 72 86 27 81 85 33 84 43 97 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 77 62 79 17 22 3 69 26 27 71 84 90 5 50 21 51 70 53 23 ]
+	B: [ 77 62 79 17 22 3 69 26 27 71 84 90 5 50 21 51 70 53 23 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 4 94 38 41 37 87 45 26 14 64 4 28 95 21 ]
+	B: [ 4 94 38 41 37 87 42 26 14 64 4 28 95 21 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 78 13 12 20 70 14 93 73 85 ]
+	B: [ 78 13 12 20 70 14 93 73 85 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 94 0 53 88 38 46 77 25 91 4 91 55 60 19 2 33 21 ]
+	B: [ 94 0 53 88 38 46 77 25 91 4 91 55 60 19 2 33 21 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 1 83 40 66 3 62 32 96 36 69 43 84 63 95 89 3 ]
+	B: [ 1 83 40 66 3 62 32 96 36 69 43 84 63 95 89 3 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 33 62 27 37 53 34 49 24 37 82 97 90 9 51 73 49 ]
+	B: [ 33 62 27 37 53 34 49 24 37 82 97 90 9 51 73 49 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 11 1 24 99 71 68 84 34 15 25 90 1 61 23 63 88 12 ]
+	B: [ 11 1 24 99 71 68 84 34 15 25 90 1 61 23 63 88 12 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 61 45 11 ]
+	B: [ 61 45 11 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 1 4 46 26 ]
+	B: [ 1 4 46 26 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 2 68 16 79 20 87 47 4 74 14 81 16 15 42 39 31 ]
+	B: [ 2 68 16 79 20 87 47 4 74 14 81 0 15 42 39 31 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 16 45 68 11 40 70 67 86 48 24 1 3 92 70 82 12 9 29 ]
+	B: [ 16 45 68 11 40 70 67 86 48 24 1 3 92 70 82 43 9 29 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 51 11 44 42 42 27 45 94 84 61 39 ]
+	B: [ 32 11 44 42 42 27 45 94 84 61 39 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 91 18 23 15 72 26 60 42 8 24 51 89 45 87 84 ]
+	B: [ 91 18 23 15 72 26 60 42 8 24 51 89 45 87 84 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 47 91 81 89 18 78 35 54 40 27 7 64 59 33 8 29 56 23 1 ]
+	B: [ 47 91 81 89 18 78 35 54 40 27 7 64 59 33 43 29 56 23 1 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 60 47 83 5 34 20 52 72 67 43 5 9 14 84 44 ]
+	B: [ 60 71 83 5 34 20 52 72 67 43 5 9 14 84 44 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 40 82 61 48 12 69 24 13 ]
+	B: [ 40 82 61 9 12 69 24 13 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 71 56 86 76 90 6 80 14 25 76 20 ]
+	B: [ 71 56 86 56 90 6 80 14 25 76 20 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 58 32 54 38 24 37 99 73 49 20 49 62 ]
+	B: [ 58 32 54 38 71 37 99 73 49 20 49 62 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 80 79 65 8 69 23 89 84 ]
+	B: [ 80 56 65 8 69 23 89 84 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 7 64 66 17 96 20 55 20 57 54 45 58 75 94 73 51 ]
+	B: [ 7 64 66 17 96 20 55 20 57 54 45 58 75 94 73 51 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 30 35 76 95 95 45 18 36 81 19 53 89 54 60 53 72 78 ]
+	B: [ 30 35 76 95 95 45 18 36 81 19 53 89 54 60 53 72 78 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 33 22 2 40 19 12 67 14 85 70 69 82 1 ]
+	B: [ 33 22 2 40 19 12 67 14 85 70 69 48 1 ]
+	   Your result: 0
+	Correct result: 0
+	A: [ 55 19 40 89 38 93 78 44 54 84 16 32 ]
+	B: [ 55 19 40 89 38 93 78 44 54 84 16 32 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 17 ]
+	B: [ 17 ]
+	   Your result: 1
+	Correct result: 1
+	A: [ 57 79 27 76 45 64 47 66 98 48 22 8 48 25 16 ]
+	B: [ 57 79 27 76 45 64 47 66 98 48 22 8 48 25 16 ]
+	   Your result: 1
+	Correct result: 1
+	Tested 1000 arrays with 0 errors: Pass
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

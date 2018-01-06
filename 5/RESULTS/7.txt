@@ -1,0 +1,85 @@
+Testing Repo CMPT127-1157-sinanl/5 Lab 5 Task 7 at 2015-12-04 12:02:39.326390
+(make -f /home/vaughan/lab/5/Makefile.test t7 STUDENT="sinanl" LAB="/home/vaughan/lab/5" REPO="/home/vaughan/CMPT127-1157-sinanl/5" SANDBOX="/home/build/sandbox.sinanl.qpiQPR"> compiler.out ) >& compiler.err
+Build operations:
+	gcc -g -Wall -std=c99 -I/home/vaughan/lab/5 -o t7 /home/vaughan/lab/5/main.c /home/vaughan/CMPT127-1157-sinanl/5/intarr.c -lm
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	Testing Task 7
+	intarr_create( 100777 )
+	intarr_create() passed initial tests.
+	intarr_destroy( 0xe15010 )
+	intarr_destroy() passed initial tests.
+	intarr_create( 36 )
+	writing a random value into every array slot
+	index 0
+	index 1
+	index 2
+	index 3
+	index 4
+	index 5
+	index 6
+	index 7
+	index 8
+	index 9
+	index 10
+	index 11
+	index 12
+	index 13
+	index 14
+	index 15
+	index 16
+	index 17
+	index 18
+	index 19
+	index 20
+	index 21
+	index 22
+	index 23
+	index 24
+	index 25
+	index 26
+	index 27
+	index 28
+	index 29
+	index 30
+	index 31
+	index 32
+	index 33
+	index 34
+	index 35
+	done.
+	testing intarr_resize()
+	Creating empty array...done.
+	initial 0xe150d0 len 0 [ ]
+	intarr_resize( 0xe15010, 117 )
+	resized and written 0xe150d0 len 117 [ 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 ]
+	intarr_resize( 0xe15010, 202 )
+	resized and written 0xe150d0 len 202 [ 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 ]
+	intarr_resize( 0xe15010, 18 )
+	resized and written 0xe150d0 len 18 [ 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 ]
+	intarr_resize( 0xe15010, 44 )
+	resized and written 0xe150d0 len 44 [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+	intarr_resize( 0xe15010, 167 )
+	resized and written 0xe150d0 len 167 [ 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 ]
+	intarr_resize( 0xe15010, 137 )
+	resized and written 0xe150d0 len 137 [ 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 ]
+	intarr_resize( 0xe15010, 55 )
+	resized and written 0xe150d0 len 55 [ 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 ]
+	intarr_resize( 0xe15010, 193 )
+	resized and written 0xe150d0 len 193 [ 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 ]
+	intarr_resize( 0xe15010, 11 )
+	resized and written 0xe150d0 len 11 [ 3 3 3 3 3 3 3 3 3 3 3 ]
+	intarr_resize( 0xe15010, 143 )
+	resized and written 0xe150d0 len 143 [ 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 ]
+	intarr_resize() passed
+	Task 7 passed
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

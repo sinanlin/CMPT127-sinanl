@@ -1,0 +1,56 @@
+Testing Repo CMPT127-1157-sinanl/1 Lab 1 Task 9 at 2015-12-04 12:02:29.017033
+testing source file /home/vaughan/CMPT127-1157-sinanl/1/t9.c
+(make -f /home/vaughan/lab/1/Makefile.test t9 STUDENT="sinanl" LAB="/home/vaughan/lab/1" REPO="/home/vaughan/CMPT127-1157-sinanl/1" SANDBOX="/home/build/sandbox.sinanl.Puu6MI"> compiler.out ) >& compiler.err
+Build operations:
+	gcc -Wall -std=c99 -o t9 t9.c -lm
+build OK
+
+Unit test /home/vaughan/lab/1/testdir/t9/1266: 
+ from instructions
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t9/111: 
+ from instructions
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t9/40104: 
+ from instructions
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t9/744: 
+ from instructions
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t9/hidden1: 
+ small secret numbers
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t9/664: 
+ from instructions
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+All unit tests passed. Task complete.

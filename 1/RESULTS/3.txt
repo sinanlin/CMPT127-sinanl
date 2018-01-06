@@ -1,0 +1,64 @@
+Testing Repo CMPT127-1157-sinanl/1 Lab 1 Task 3 at 2015-12-04 12:02:27.888592
+testing source file /home/vaughan/CMPT127-1157-sinanl/1/t3.c
+(make -f /home/vaughan/lab/1/Makefile.test t3 STUDENT="sinanl" LAB="/home/vaughan/lab/1" REPO="/home/vaughan/CMPT127-1157-sinanl/1" SANDBOX="/home/build/sandbox.sinanl.ShiL3M"> compiler.out ) >& compiler.err
+Build operations:
+	gcc -Wall -std=c99 -o t3 t3.c -lm
+build OK
+
+Unit test /home/vaughan/lab/1/testdir/t3/random2: 
+ Random positive value
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t3/largenegative: 
+ Large negative value
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t3/negativeint: 
+ Small negative integer value
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t3/pi: 
+ Inputs pi
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t3/positiveint: 
+ Small positive integer value
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t3/negative: 
+ Small negative value
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t3/random1: 
+ Random positive value
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+All unit tests passed. Task complete.

@@ -1,0 +1,22 @@
+Testing Repo CMPT127-1157-sinanl/0 Lab 0 Task 1 at 2015-12-04 12:02:27.461889
+(make -f /home/vaughan/lab/0/Makefile.test t1 STUDENT="sinanl" LAB="/home/vaughan/lab/0" REPO="/home/vaughan/CMPT127-1157-sinanl/0" SANDBOX="/home/build/sandbox.sinanl.zKI0A1"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/CMPT127-1157-sinanl/0/tstsvn /home/build/sandbox.sinanl.zKI0A1/
+	echo "sinanl@sfu.ca" > /home/build/sandbox.sinanl.zKI0A1/email.txt
+	cp /home/vaughan/lab/0/usercheck.sh t1
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	Contents of tstsvn:
+	sinanl@sfu.ca
+	Your SFU email address:
+	sinanl@sfu.ca
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

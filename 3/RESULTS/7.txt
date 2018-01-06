@@ -1,0 +1,20 @@
+Testing Repo CMPT127-1157-sinanl/3 Lab 3 Task 7 at 2015-12-04 12:02:33.460261
+(make -f /home/vaughan/lab/3/Makefile.test t7 STUDENT="sinanl" LAB="/home/vaughan/lab/3" REPO="/home/vaughan/CMPT127-1157-sinanl/3" SANDBOX="/home/build/sandbox.sinanl.uznu9e"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/lab/3/imgops_reference.c .
+	cp /home/vaughan/lab/3/imgops_reference.h .
+	cp /home/vaughan/lab/3/imgops.h .
+	cp /home/vaughan/lab/3/test.c .
+	cp /home/vaughan/CMPT127-1157-sinanl/3/imgops.c .
+	gcc -Wall -std=c99  -o t7 imgops.c imgops_reference.c test.c -lm
+build OK
+
+Unit test /home/vaughan/lab/3/testdir/t7/plain: 
+	Running Program...
+	Done. Program returned 136
+	Error: Your program returned nonzero status code 136
+	stdout ---------------------------------------------------
+	normalize
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------

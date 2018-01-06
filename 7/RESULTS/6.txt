@@ -1,0 +1,39 @@
+Testing Repo CMPT127-1157-sinanl/7 Lab 7 Task 6 at 2015-12-04 12:02:41.158587
+testing source file /home/vaughan/CMPT127-1157-sinanl/7/t6.c
+(make -f /home/vaughan/lab/7/Makefile.test t6 STUDENT="sinanl" LAB="/home/vaughan/lab/7" REPO="/home/vaughan/CMPT127-1157-sinanl/7" SANDBOX="/home/build/sandbox.sinanl.oJKbUd"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/lab/7/list.c .
+	cp /home/vaughan/lab/7/list.h .
+	cp /home/vaughan/CMPT127-1157-sinanl/7/main.c .
+	gcc -Wall -std=c99 -o ref main.c list.c
+	cp ref /home/build/sandbox.sinanl.oJKbUd
+	cp /home/vaughan/lab/7/t6.c .
+	cp /home/vaughan/CMPT127-1157-sinanl/7/main.c .
+	gcc -Wall -std=c99 -o test t6.c main.c -lm
+	cp test /home/build/sandbox.sinanl.oJKbUd
+	cp /home/vaughan/lab/7/runtest.sh t6
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	REPEAT # {1..6}:
+	
+	Running student's test program against buggy code
+	[TEST BEGIN]
+	[TEST END]
+	Bug(s) detected or crash forced in buggy program. Good!
+	
+	Running student's test program against correct reference code
+	[TEST BEGIN]
+	{ }
+	[TEST END]
+	No bug detected in correct reference code. Good!
+	All bugs detected correctly. Pass!
+	stderr ---------------------------------------------------
+	Segmentation fault (core dumped)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

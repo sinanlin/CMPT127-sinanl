@@ -1,0 +1,50 @@
+Testing Repo CMPT127-1157-sinanl/6 Lab 6 Task 1 at 2015-12-04 12:02:39.747192
+testing source file /home/vaughan/CMPT127-1157-sinanl/6/t1.c
+(make -f /home/vaughan/lab/6/Makefile.test t1 STUDENT="sinanl" LAB="/home/vaughan/lab/6" REPO="/home/vaughan/CMPT127-1157-sinanl/6" SANDBOX="/home/build/sandbox.sinanl.aebhWy"> compiler.out ) >& compiler.err
+Build operations:
+	gcc -std=gnu99 -Wall -Wfatal-errors -g -I/home/vaughan/lab/6 -o t1 /home/vaughan/lab/6/test_binary.c /home/vaughan/lab/6/intarr.c /home/vaughan/CMPT127-1157-sinanl/6/t1.c -lm
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	Testing normal save/load usage:
+	
+	Saving array of len 0 in file "saved_array.0"
+	Loading array from file "saved_array.0"
+	Loaded array length 0. Checking array contents... OK
+	Saving array of len 809 in file "saved_array.1"
+	Loading array from file "saved_array.1"
+	Loaded array length 809. Checking array contents... OK
+	Saving array of len 602 in file "saved_array.2"
+	Loading array from file "saved_array.2"
+	Loaded array length 602. Checking array contents... OK
+	Saving array of len 619 in file "saved_array.3"
+	Loading array from file "saved_array.3"
+	Loaded array length 619. Checking array contents... OK
+	Saving array of len 232 in file "saved_array.4"
+	Loading array from file "saved_array.4"
+	Loaded array length 232. Checking array contents... OK
+	
+	Testing Corner cases
+	intarr_save_binary( NULL, "foo" );
+	OK: correct behaviour for NULL array
+	intarr_save_binary( ia, NULL );
+	Failed to open the file for writing.
+	OK: correct behaviour for NULL filename
+	intarr_load_binary( NULL );
+	Failed to open image file for reading
+	OK: correct behaviour for NULL filename
+	intarr_load_binary( "non-existent-file" );
+	Failed to open image file for reading
+	OK: correct behaviour for non-existent filename
+	
+	** No errors detected. **
+	
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

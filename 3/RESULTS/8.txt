@@ -1,0 +1,33 @@
+Testing Repo CMPT127-1157-sinanl/3 Lab 3 Task 8 at 2015-12-04 12:02:33.827085
+(make -f /home/vaughan/lab/3/Makefile.test t8 STUDENT="sinanl" LAB="/home/vaughan/lab/3" REPO="/home/vaughan/CMPT127-1157-sinanl/3" SANDBOX="/home/build/sandbox.sinanl.SZ_QZP"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/lab/3/imgops_reference.c .
+	cp /home/vaughan/lab/3/imgops_reference.h .
+	cp /home/vaughan/lab/3/imgops.h .
+	cp /home/vaughan/lab/3/test.c .
+	cp /home/vaughan/CMPT127-1157-sinanl/3/imgops.c .
+	gcc -Wall -std=c99  -o t8 imgops.c imgops_reference.c test.c -lm
+build OK
+
+Unit test /home/vaughan/lab/3/testdir/t8/plain: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	half 	pass
+	half 	pass
+	half 	pass
+	half 	pass
+	half 	pass
+	half 	pass
+	half 	pass
+	half 	pass
+	half 	pass
+	half 	pass
+	--
+	All tests passed.
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

@@ -1,0 +1,51 @@
+Testing Repo CMPT127-1157-sinanl/4 Lab 4 Task 3 at 2015-12-04 12:02:35.846316
+testing source file /home/vaughan/CMPT127-1157-sinanl/4/t3.c
+(make -f /home/vaughan/lab/4/Makefile.test t3 STUDENT="sinanl" LAB="/home/vaughan/lab/4" REPO="/home/vaughan/CMPT127-1157-sinanl/4" SANDBOX="/home/build/sandbox.sinanl.ZeirnR"> compiler.out ) >& compiler.err
+Build operations:
+	gcc -Wall -std=c99 -I/home/vaughan/lab/4 -o t3 /home/vaughan/CMPT127-1157-sinanl/4/t3.c /home/vaughan/lab/4/t3_test.c /home/vaughan/lab/4/imgops.c /home/vaughan/lab/4/util.c -lm
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	Conway's Life - 'acorn' pattern in:
+	 size (  25, 73 ) world for 52 rounds... pass.
+	 size (  95, 98 ) world for 42 rounds... pass.
+	 size (  93, 17 ) world for 20 rounds... pass.
+	 size (  73, 69 ) world for 68 rounds... pass.
+	 size (  28, 11 ) world for  8 rounds... pass.
+	 size (  45, 15 ) world for 89 rounds... pass.
+	 size (  63,102 ) world for 63 rounds... pass.
+	 size (  51, 86 ) world for 75 rounds... pass.
+	 size (  20, 62 ) world for 73 rounds... pass.
+	 size (  91, 82 ) world for 24 rounds... pass.
+	 size (  21, 50 ) world for  9 rounds... pass.
+	 size (  13, 35 ) world for 69 rounds... pass.
+	 size (  98, 19 ) world for 63 rounds... pass.
+	 size (  57, 34 ) world for 90 rounds... pass.
+	 size (  38, 52 ) world for 71 rounds... pass.
+	 size (  19, 87 ) world for 64 rounds... pass.
+	 size ( 101, 92 ) world for 26 rounds... pass.
+	 size (  38, 86 ) world for 89 rounds... pass.
+	 size (  92, 48 ) world for 33 rounds... pass.
+	 size (  87, 81 ) world for 40 rounds... pass.
+	 size (  78, 93 ) world for 54 rounds... pass.
+	 size (  84, 96 ) world for  3 rounds... pass.
+	 size (  78, 84 ) world for 62 rounds... pass.
+	 size (  32, 83 ) world for  6 rounds... pass.
+	 size (  97, 63 ) world for 60 rounds... pass.
+	 size (  63, 73 ) world for 39 rounds... pass.
+	 size (  86, 16 ) world for 54 rounds... pass.
+	 size (  54, 44 ) world for 26 rounds... pass.
+	 size (  50, 27 ) world for 46 rounds... pass.
+	 size (  98, 56 ) world for 80 rounds... pass.
+	 size (  19, 76 ) world for 11 rounds... pass.
+	 size (  32, 50 ) world for 87 rounds... pass.
+	Your code produced correct results every time. Pass!
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

@@ -1,0 +1,21 @@
+Testing Repo CMPT127-1157-sinanl/2 Lab 2 Task 1 at 2015-12-04 12:02:29.267255
+(make -f /home/vaughan/lab/2/Makefile.test t1 STUDENT="sinanl" LAB="/home/vaughan/lab/2" REPO="/home/vaughan/CMPT127-1157-sinanl/2" SANDBOX="/home/build/sandbox.sinanl.RtbMgf"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/CMPT127-1157-sinanl/2/funcs.h .
+	cp /home/vaughan/lab/2/main.c .
+	cp /home/vaughan/lab/2/funcs.c .
+	gcc -Wall -std=c99 -o t1 funcs.c main.c
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	The max of our numbers is 12
+	The min of our numbers is 11
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

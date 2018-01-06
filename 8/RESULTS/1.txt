@@ -1,0 +1,58 @@
+Testing Repo CMPT127-1157-sinanl/8 Lab 8 Task 1 at 2015-12-04 12:02:42.538017
+testing source file /home/vaughan/CMPT127-1157-sinanl/8/t1.c
+(make -f /home/vaughan/lab/8/Makefile.test t1 STUDENT="sinanl" LAB="/home/vaughan/lab/8" REPO="/home/vaughan/CMPT127-1157-sinanl/8" SANDBOX="/home/build/sandbox.sinanl.o1Q2jw"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/lab/8/point_array.h .
+	cp /home/vaughan/lab/8/test.c .
+	cp /home/vaughan/CMPT127-1157-sinanl/8/t1.c .
+	gcc -std=c99 -g -Wall -o t1 test.c t1.c -lm
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	Creating and initializing array... done.
+	Appending 10000 points to array...done.
+	Checking array length...OK.
+	Removing index 10000... returned error. OK.
+	Removing all items using random valid indexes...done.
+	After removing all items, array size is 0
+	Array size OK
+	Removing index 1 from empty array...returned error. OK
+	Removing index 0 from empty array...returned error. OK
+	
+	Checking for scalable algorithms:
+	
+	# Timing tests (microseconds):
+	# limits:              500000           500000
+	# Your code:
+	#           LENGTH     APPEND            REMOVE
+	#                       total (each)      total (each)
+	0	         1          2 (2.00)          0 (0.00)
+	1	         2          0 (0.00)          0 (0.00)
+	2	         4          1 (0.25)          1 (0.25)
+	3	         8          0 (0.00)          1 (0.12)
+	4	        16          1 (0.06)          1 (0.06)
+	5	        32          1 (0.03)          1 (0.03)
+	6	        64          2 (0.03)          2 (0.03)
+	7	       128          4 (0.03)          4 (0.03)
+	8	       256          7 (0.03)          7 (0.03)
+	9	       512         13 (0.03)         14 (0.03)
+	10	      1024         26 (0.03)         27 (0.03)
+	11	      2048         49 (0.02)         52 (0.03)
+	12	      4096        129 (0.03)        105 (0.03)
+	13	      8192        291 (0.04)        208 (0.03)
+	14	     16384        602 (0.04)        424 (0.03)
+	15	     32768        998 (0.03)        893 (0.03)
+	16	     65536       2000 (0.03)       1748 (0.03)
+	17	    131072       4509 (0.03)       3509 (0.03)
+	18	    262144       8614 (0.03)       7760 (0.03)
+	19	    524288      20792 (0.04)      25170 (0.05)
+	20	   1048576      37096 (0.04)      58138 (0.06)
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

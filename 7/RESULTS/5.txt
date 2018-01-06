@@ -1,0 +1,18 @@
+Testing Repo CMPT127-1157-sinanl/7 Lab 7 Task 5 at 2015-12-04 12:02:41.073296
+testing source file /home/vaughan/CMPT127-1157-sinanl/7/t5.c
+(make -f /home/vaughan/lab/7/Makefile.test t5 STUDENT="sinanl" LAB="/home/vaughan/lab/7" REPO="/home/vaughan/CMPT127-1157-sinanl/7" SANDBOX="/home/build/sandbox.sinanl.IGBc79"> compiler.out ) >& compiler.err
+Build operations:
+	echo "exit 0" > t5
+	chmod a+x t5
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

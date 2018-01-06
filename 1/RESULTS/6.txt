@@ -1,0 +1,40 @@
+Testing Repo CMPT127-1157-sinanl/1 Lab 1 Task 6 at 2015-12-04 12:02:28.449755
+testing source file /home/vaughan/CMPT127-1157-sinanl/1/t6.c
+(make -f /home/vaughan/lab/1/Makefile.test t6 STUDENT="sinanl" LAB="/home/vaughan/lab/1" REPO="/home/vaughan/CMPT127-1157-sinanl/1" SANDBOX="/home/build/sandbox.sinanl.z4kjqk"> compiler.out ) >& compiler.err
+Build operations:
+	gcc -Wall -std=c99 -o t6 t6.c -lm
+build OK
+
+Unit test /home/vaughan/lab/1/testdir/t6/few: 
+ A short list
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t6/many: 
+ Many lines, some blank
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t6/simple: 
+ Human computable
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t6/negative: 
+ Human computable
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+All unit tests passed. Task complete.

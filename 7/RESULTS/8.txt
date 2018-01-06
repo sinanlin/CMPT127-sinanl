@@ -1,0 +1,62 @@
+Testing Repo CMPT127-1157-sinanl/7 Lab 7 Task 8 at 2015-12-04 12:02:41.616483
+testing source file /home/vaughan/CMPT127-1157-sinanl/7/t8.c
+(make -f /home/vaughan/lab/7/Makefile.test t8 STUDENT="sinanl" LAB="/home/vaughan/lab/7" REPO="/home/vaughan/CMPT127-1157-sinanl/7" SANDBOX="/home/build/sandbox.sinanl.4ttjtd"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/lab/7/list.h .
+	cp /home/vaughan/lab/7/list.c .
+	cp /home/vaughan/lab/7/test_sort.c .
+	cp /home/vaughan/CMPT127-1157-sinanl/7/t8.c .
+	gcc -Wall -std=c99 -o t8 test_sort.c list.c t8.c -lm
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	Creating two lists of length 100000 with identical contents, generated at random..done
+	Sorting one list with recursive sort...     done in 0.047379 seconds.
+	Sorting one list with t7.c implementation...done in 0.048093 seconds.
+	Comparing sorted lists...OK.
+	Your implementation took (48-47) = 1 msec longer than the reference
+	Your implementation took 1.02 times the reference
+	Less than 10 times slower than the reference for 100000 items. OK.
+	
+	Creating two lists of length 100000 with identical contents, generated at random..done
+	Sorting one list with recursive sort...     done in 0.063641 seconds.
+	Sorting one list with t7.c implementation...done in 0.067258 seconds.
+	Comparing sorted lists...OK.
+	Your implementation took (67-63) = 4 msec longer than the reference
+	Your implementation took 1.06 times the reference
+	Less than 10 times slower than the reference for 100000 items. OK.
+	
+	Creating two lists of length 100000 with identical contents, generated at random..done
+	Sorting one list with recursive sort...     done in 0.063307 seconds.
+	Sorting one list with t7.c implementation...done in 0.067503 seconds.
+	Comparing sorted lists...OK.
+	Your implementation took (67-63) = 4 msec longer than the reference
+	Your implementation took 1.06 times the reference
+	Less than 10 times slower than the reference for 100000 items. OK.
+	
+	Creating two lists of length 100000 with identical contents, generated at random..done
+	Sorting one list with recursive sort...     done in 0.061366 seconds.
+	Sorting one list with t7.c implementation...done in 0.064522 seconds.
+	Comparing sorted lists...OK.
+	Your implementation took (64-61) = 3 msec longer than the reference
+	Your implementation took 1.05 times the reference
+	Less than 10 times slower than the reference for 100000 items. OK.
+	
+	Creating two lists of length 100000 with identical contents, generated at random..done
+	Sorting one list with recursive sort...     done in 0.059248 seconds.
+	Sorting one list with t7.c implementation...done in 0.063613 seconds.
+	Comparing sorted lists...OK.
+	Your implementation took (63-59) = 4 msec longer than the reference
+	Your implementation took 1.07 times the reference
+	Less than 10 times slower than the reference for 100000 items. OK.
+	
+	Pass.
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

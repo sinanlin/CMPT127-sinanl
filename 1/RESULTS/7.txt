@@ -1,0 +1,53 @@
+Testing Repo CMPT127-1157-sinanl/1 Lab 1 Task 7 at 2015-12-04 12:02:28.629223
+testing source file /home/vaughan/CMPT127-1157-sinanl/1/t7.c
+(make -f /home/vaughan/lab/1/Makefile.test t7 STUDENT="sinanl" LAB="/home/vaughan/lab/1" REPO="/home/vaughan/CMPT127-1157-sinanl/1" SANDBOX="/home/build/sandbox.sinanl.ElT8xn"> compiler.out ) >& compiler.err
+Build operations:
+	gcc -Wall -std=c99 -o t7 t7.c -lm
+build OK
+
+Unit test /home/vaughan/lab/1/testdir/t7/3: 
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t7/1: 
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t7/2: 
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t7/5: 
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t7/4: 
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

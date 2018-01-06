@@ -1,0 +1,39 @@
+Testing Repo CMPT127-1157-sinanl/2 Lab 2 Task 5 at 2015-12-04 12:02:30.140601
+(make -f /home/vaughan/lab/2/Makefile.test t5 STUDENT="sinanl" LAB="/home/vaughan/lab/2" REPO="/home/vaughan/CMPT127-1157-sinanl/2" SANDBOX="/home/build/sandbox.sinanl.B8hMa1"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/CMPT127-1157-sinanl/2/contains.c .
+	gcc -Wall -std=c99 -o t5 contains.c -lm
+build OK
+
+Unit test /home/vaughan/lab/2/testdir/t5/short: 
+ Short
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/2/testdir/t5/one_arg: 
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/2/testdir/t5/walrus1: 
+ Walrus 1
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/2/testdir/t5/longer: 
+ Longer strings
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+All unit tests passed. Task complete.

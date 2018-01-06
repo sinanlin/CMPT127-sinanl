@@ -1,0 +1,24 @@
+Testing Repo CMPT127-1157-sinanl/1 Lab 1 Task 5 at 2015-12-04 12:02:28.291810
+testing source file /home/vaughan/CMPT127-1157-sinanl/1/t5.c
+(make -f /home/vaughan/lab/1/Makefile.test t5 STUDENT="sinanl" LAB="/home/vaughan/lab/1" REPO="/home/vaughan/CMPT127-1157-sinanl/1" SANDBOX="/home/build/sandbox.sinanl.jKMZGL"> compiler.out ) >& compiler.err
+Build operations:
+	gcc -Wall -std=c99 -o t5 t5.c -lm
+build OK
+
+Unit test /home/vaughan/lab/1/testdir/t5/few: 
+ A short list
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t5/many: 
+ Many lines, some blank
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+All unit tests passed. Task complete.

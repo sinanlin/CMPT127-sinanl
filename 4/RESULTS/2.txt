@@ -1,0 +1,9 @@
+Testing Repo CMPT127-1157-sinanl/4 Lab 4 Task 2 at 2015-12-04 12:02:35.772908
+(make -f /home/vaughan/lab/4/Makefile.test t2 STUDENT="sinanl" LAB="/home/vaughan/lab/4" REPO="/home/vaughan/CMPT127-1157-sinanl/4" SANDBOX="/home/build/sandbox.sinanl.C0lOQP"> compiler.out ) >& compiler.err
+Build operations:
+Error: Build returned 2. Error output:
+Make stdout:
+	gcc -Wall -std=c99 -I/home/vaughan/lab/4 -o t2 /home/vaughan/CMPT127-1157-sinanl/4/t2.c /home/vaughan/lab/4/t2_test.c /home/vaughan/lab/4/imgops.c /home/vaughan/lab/4/util.c -lm
+Make stderr:
+	gcc: error: /home/vaughan/CMPT127-1157-sinanl/4/t2.c: No such file or directory
+	make: *** [t2] Error 1

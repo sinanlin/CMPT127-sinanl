@@ -1,0 +1,44 @@
+Testing Repo CMPT127-1157-sinanl/2 Lab 2 Task 9 at 2015-12-04 12:02:31.563180
+(make -f /home/vaughan/lab/2/Makefile.test t9 STUDENT="sinanl" LAB="/home/vaughan/lab/2" REPO="/home/vaughan/CMPT127-1157-sinanl/2" SANDBOX="/home/build/sandbox.sinanl.FQsTjU"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/CMPT127-1157-sinanl/2/verticalgraph.c .
+	gcc -Wall -std=c99 -o t9 verticalgraph.c -lm
+build OK
+
+Unit test /home/vaughan/lab/2/testdir/t9/3: 
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+Unit test /home/vaughan/lab/2/testdir/t9/1: 
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+Unit test /home/vaughan/lab/2/testdir/t9/2: 
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+Unit test /home/vaughan/lab/2/testdir/t9/5: 
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

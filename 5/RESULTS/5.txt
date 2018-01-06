@@ -1,0 +1,89 @@
+Testing Repo CMPT127-1157-sinanl/5 Lab 5 Task 5 at 2015-12-04 12:02:38.505756
+(make -f /home/vaughan/lab/5/Makefile.test t5 STUDENT="sinanl" LAB="/home/vaughan/lab/5" REPO="/home/vaughan/CMPT127-1157-sinanl/5" SANDBOX="/home/build/sandbox.sinanl.EMoY3f"> compiler.out ) >& compiler.err
+Build operations:
+	gcc -g -Wall -std=c99 -I/home/vaughan/lab/5 -o t5 /home/vaughan/lab/5/main.c /home/vaughan/CMPT127-1157-sinanl/5/intarr.c -lm
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	Testing Task 5
+	intarr_create( 100099 )
+	intarr_create() passed initial tests.
+	intarr_destroy( 0x1a6a010 )
+	intarr_destroy() passed initial tests.
+	intarr_create( 33 )
+	writing a random value into every array slot
+	index 0
+	index 1
+	index 2
+	index 3
+	index 4
+	index 5
+	index 6
+	index 7
+	index 8
+	index 9
+	index 10
+	index 11
+	index 12
+	index 13
+	index 14
+	index 15
+	index 16
+	index 17
+	index 18
+	index 19
+	index 20
+	index 21
+	index 22
+	index 23
+	index 24
+	index 25
+	index 26
+	index 27
+	index 28
+	index 29
+	index 30
+	index 31
+	index 32
+	done.
+	Testing find() repeat 0
+	find 127 0x1a6a010 len 33 [ 69 80 62 54 44 84 37 33 43 16 14 34 79 49 65 47 12 80 17 32 2 72 12 127 31 56 88 60 55 36 75 77 68 ]
+	found 127 at array[23]
+	Testing find() repeat 1
+	find 127 0x1a6a010 len 33 [ 69 80 62 54 44 84 37 33 43 16 14 34 79 49 65 47 12 80 17 32 2 72 12 39 31 56 88 60 55 36 127 77 68 ]
+	found 127 at array[30]
+	Testing find() repeat 2
+	find 127 0x1a6a010 len 33 [ 69 80 62 54 44 84 37 33 43 16 14 34 79 49 65 47 127 80 17 32 2 72 12 39 31 56 88 60 55 36 75 77 68 ]
+	found 127 at array[16]
+	Testing find() repeat 3
+	find 127 0x1a6a010 len 33 [ 69 80 62 127 44 84 37 33 43 16 14 34 79 49 65 47 12 80 17 32 2 72 12 39 31 56 88 60 55 36 75 77 68 ]
+	found 127 at array[3]
+	Testing find() repeat 4
+	find 127 0x1a6a010 len 33 [ 69 80 127 54 44 84 37 33 43 16 14 34 79 49 65 47 12 80 17 32 2 72 12 39 31 56 88 60 55 36 75 77 68 ]
+	found 127 at array[2]
+	Testing find() repeat 5
+	find 127 0x1a6a010 len 33 [ 69 80 62 54 44 84 37 33 43 16 14 34 79 49 65 47 12 80 17 32 2 72 12 127 31 56 88 60 55 36 75 77 68 ]
+	found 127 at array[23]
+	Testing find() repeat 6
+	find 127 0x1a6a010 len 33 [ 69 80 62 54 44 84 37 33 43 16 14 127 79 49 65 47 12 80 17 32 2 72 12 39 31 56 88 60 55 36 75 77 68 ]
+	found 127 at array[11]
+	Testing find() repeat 7
+	find 127 0x1a6a010 len 33 [ 69 80 62 54 44 84 37 33 43 16 14 34 79 49 65 47 12 80 17 32 2 72 12 39 31 56 127 60 55 36 75 77 68 ]
+	found 127 at array[26]
+	Testing find() repeat 8
+	find 127 0x1a6a010 len 33 [ 69 80 62 54 44 84 37 33 43 16 14 34 79 49 65 47 12 80 17 32 127 72 12 39 31 56 88 60 55 36 75 77 68 ]
+	found 127 at array[20]
+	Testing find() repeat 9
+	find 127 0x1a6a010 len 33 [ 69 80 62 54 44 84 37 33 43 16 14 34 79 49 127 47 12 80 17 32 2 72 12 39 31 56 88 60 55 36 75 77 68 ]
+	found 127 at array[14]
+	intarr_find() passed
+	Task 5 passed
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

@@ -1,0 +1,397 @@
+Testing Repo CMPT127-1157-sinanl/5 Lab 5 Task 8 at 2015-12-04 12:02:39.520813
+(make -f /home/vaughan/lab/5/Makefile.test t8 STUDENT="sinanl" LAB="/home/vaughan/lab/5" REPO="/home/vaughan/CMPT127-1157-sinanl/5" SANDBOX="/home/build/sandbox.sinanl.H2dyed"> compiler.out ) >& compiler.err
+Build operations:
+	gcc -g -Wall -std=c99 -I/home/vaughan/lab/5 -o t8 /home/vaughan/lab/5/main.c /home/vaughan/CMPT127-1157-sinanl/5/intarr.c -lm
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	Testing Task 8
+	intarr_create( 100777 )
+	intarr_create() passed initial tests.
+	intarr_destroy( 0xf13010 )
+	intarr_destroy() passed initial tests.
+	intarr_create( 36 )
+	writing a random value into every array slot
+	index 0
+	index 1
+	index 2
+	index 3
+	index 4
+	index 5
+	index 6
+	index 7
+	index 8
+	index 9
+	index 10
+	index 11
+	index 12
+	index 13
+	index 14
+	index 15
+	index 16
+	index 17
+	index 18
+	index 19
+	index 20
+	index 21
+	index 22
+	index 23
+	index 24
+	index 25
+	index 26
+	index 27
+	index 28
+	index 29
+	index 30
+	index 31
+	index 32
+	index 33
+	index 34
+	index 35
+	done.
+	
+	original array
+	 0xf130d0 len 31 [ 45 6 98 67 37 23 80 51 44 36 18 64 46 77 58 45 53 62 39 97 70 73 19 47 58 68 45 45 68 93 63 ]
+	
+	intarr_copy_subarray( 0xf130d0, 20, 23 );
+	sub array [20..23]
+	 0xf13180 len 4 [ 70 73 19 47 ]
+	
+	intarr_copy_subarray( 0xf130d0, 16, 27 );
+	sub array [16..27]
+	 0xf13180 len 12 [ 53 62 39 97 70 73 19 47 58 68 45 45 ]
+	
+	intarr_copy_subarray( 0xf130d0, 6, 28 );
+	sub array [6..28]
+	 0xf13180 len 23 [ 80 51 44 36 18 64 46 77 58 45 53 62 39 97 70 73 19 47 58 68 45 45 68 ]
+	
+	intarr_copy_subarray( 0xf130d0, 2, 12 );
+	sub array [2..12]
+	 0xf13180 len 11 [ 98 67 37 23 80 51 44 36 18 64 46 ]
+	
+	intarr_copy_subarray( 0xf130d0, 7, 13 );
+	sub array [7..13]
+	 0xf13180 len 7 [ 51 44 36 18 64 46 77 ]
+	
+	intarr_copy_subarray( 0xf130d0, 9, 14 );
+	sub array [9..14]
+	 0xf13180 len 6 [ 36 18 64 46 77 58 ]
+	
+	intarr_copy_subarray( 0xf130d0, 11, 19 );
+	sub array [11..19]
+	 0xf13180 len 9 [ 64 46 77 58 45 53 62 39 97 ]
+	
+	intarr_copy_subarray( 0xf130d0, 16, 17 );
+	sub array [16..17]
+	 0xf13180 len 2 [ 53 62 ]
+	
+	intarr_copy_subarray( 0xf130d0, 7, 24 );
+	sub array [7..24]
+	 0xf13180 len 18 [ 51 44 36 18 64 46 77 58 45 53 62 39 97 70 73 19 47 58 ]
+	
+	intarr_copy_subarray( 0xf130d0, 16, 17 );
+	sub array [16..17]
+	 0xf13180 len 2 [ 53 62 ]
+	
+	intarr_copy_subarray( 0xf130d0, 6, 13 );
+	sub array [6..13]
+	 0xf13180 len 8 [ 80 51 44 36 18 64 46 77 ]
+	
+	intarr_copy_subarray( 0xf130d0, 9, 10 );
+	sub array [9..10]
+	 0xf13180 len 2 [ 36 18 ]
+	
+	intarr_copy_subarray( 0xf130d0, 9, 11 );
+	sub array [9..11]
+	 0xf13180 len 3 [ 36 18 64 ]
+	
+	intarr_copy_subarray( 0xf130d0, 1, 22 );
+	sub array [1..22]
+	 0xf13180 len 22 [ 6 98 67 37 23 80 51 44 36 18 64 46 77 58 45 53 62 39 97 70 73 19 ]
+	
+	intarr_copy_subarray( 0xf130d0, 5, 14 );
+	sub array [5..14]
+	 0xf13180 len 10 [ 23 80 51 44 36 18 64 46 77 58 ]
+	
+	intarr_copy_subarray( 0xf130d0, 4, 24 );
+	sub array [4..24]
+	 0xf13180 len 21 [ 37 23 80 51 44 36 18 64 46 77 58 45 53 62 39 97 70 73 19 47 58 ]
+	
+	original array
+	 0xf130d0 len 26 [ 41 96 66 78 8 54 11 9 13 8 55 49 16 47 38 38 30 76 78 39 34 70 5 63 7 69 ]
+	
+	intarr_copy_subarray( 0xf130d0, 1, 7 );
+	sub array [1..7]
+	 0xf13180 len 7 [ 96 66 78 8 54 11 9 ]
+	
+	intarr_copy_subarray( 0xf130d0, 1, 21 );
+	sub array [1..21]
+	 0xf13180 len 21 [ 96 66 78 8 54 11 9 13 8 55 49 16 47 38 38 30 76 78 39 34 70 ]
+	
+	intarr_copy_subarray( 0xf130d0, 20, 23 );
+	sub array [20..23]
+	 0xf13180 len 4 [ 34 70 5 63 ]
+	
+	intarr_copy_subarray( 0xf130d0, 1, 23 );
+	sub array [1..23]
+	 0xf13180 len 23 [ 96 66 78 8 54 11 9 13 8 55 49 16 47 38 38 30 76 78 39 34 70 5 63 ]
+	
+	intarr_copy_subarray( 0xf130d0, 10, 11 );
+	sub array [10..11]
+	 0xf13180 len 2 [ 55 49 ]
+	
+	intarr_copy_subarray( 0xf130d0, 5, 12 );
+	sub array [5..12]
+	 0xf13180 len 8 [ 54 11 9 13 8 55 49 16 ]
+	
+	intarr_copy_subarray( 0xf130d0, 11, 16 );
+	sub array [11..16]
+	 0xf13180 len 6 [ 49 16 47 38 38 30 ]
+	
+	intarr_copy_subarray( 0xf130d0, 11, 16 );
+	sub array [11..16]
+	 0xf13180 len 6 [ 49 16 47 38 38 30 ]
+	
+	intarr_copy_subarray( 0xf130d0, 1, 2 );
+	sub array [1..2]
+	 0xf13180 len 2 [ 96 66 ]
+	
+	intarr_copy_subarray( 0xf130d0, 3, 4 );
+	sub array [3..4]
+	 0xf13180 len 2 [ 78 8 ]
+	
+	intarr_copy_subarray( 0xf130d0, 17, 20 );
+	sub array [17..20]
+	 0xf13180 len 4 [ 76 78 39 34 ]
+	
+	intarr_copy_subarray( 0xf130d0, 12, 20 );
+	sub array [12..20]
+	 0xf13180 len 9 [ 16 47 38 38 30 76 78 39 34 ]
+	
+	intarr_copy_subarray( 0xf130d0, 6, 19 );
+	sub array [6..19]
+	 0xf13180 len 14 [ 11 9 13 8 55 49 16 47 38 38 30 76 78 39 ]
+	
+	intarr_copy_subarray( 0xf130d0, 0, 6 );
+	sub array [0..6]
+	 0xf13180 len 7 [ 41 96 66 78 8 54 11 ]
+	
+	intarr_copy_subarray( 0xf130d0, 14, 22 );
+	sub array [14..22]
+	 0xf13180 len 9 [ 38 38 30 76 78 39 34 70 5 ]
+	
+	intarr_copy_subarray( 0xf130d0, 18, 25 );
+	sub array [18..25]
+	 0xf13180 len 8 [ 78 39 34 70 5 63 7 69 ]
+	
+	original array
+	 0xf130d0 len 8 [ 39 8 10 77 29 96 45 11 ]
+	
+	intarr_copy_subarray( 0xf130d0, 0, 4 );
+	sub array [0..4]
+	 0xf13180 len 5 [ 39 8 10 77 29 ]
+	
+	intarr_copy_subarray( 0xf130d0, 5, 5 );
+	sub array [5..5]
+	 0xf13180 len 1 [ 96 ]
+	
+	intarr_copy_subarray( 0xf130d0, 3, 7 );
+	sub array [3..7]
+	 0xf13180 len 5 [ 77 29 96 45 11 ]
+	
+	intarr_copy_subarray( 0xf130d0, 3, 7 );
+	sub array [3..7]
+	 0xf13180 len 5 [ 77 29 96 45 11 ]
+	
+	intarr_copy_subarray( 0xf130d0, 3, 5 );
+	sub array [3..5]
+	 0xf13180 len 3 [ 77 29 96 ]
+	
+	intarr_copy_subarray( 0xf130d0, 0, 1 );
+	sub array [0..1]
+	 0xf13180 len 2 [ 39 8 ]
+	
+	intarr_copy_subarray( 0xf130d0, 0, 7 );
+	sub array [0..7]
+	 0xf13180 len 8 [ 39 8 10 77 29 96 45 11 ]
+	
+	intarr_copy_subarray( 0xf130d0, 0, 2 );
+	sub array [0..2]
+	 0xf13180 len 3 [ 39 8 10 ]
+	
+	intarr_copy_subarray( 0xf130d0, 0, 3 );
+	sub array [0..3]
+	 0xf13180 len 4 [ 39 8 10 77 ]
+	
+	intarr_copy_subarray( 0xf130d0, 0, 1 );
+	sub array [0..1]
+	 0xf13180 len 2 [ 39 8 ]
+	
+	intarr_copy_subarray( 0xf130d0, 3, 6 );
+	sub array [3..6]
+	 0xf13180 len 4 [ 77 29 96 45 ]
+	
+	intarr_copy_subarray( 0xf130d0, 4, 5 );
+	sub array [4..5]
+	 0xf13180 len 2 [ 29 96 ]
+	
+	intarr_copy_subarray( 0xf130d0, 3, 4 );
+	sub array [3..4]
+	 0xf13180 len 2 [ 77 29 ]
+	
+	intarr_copy_subarray( 0xf130d0, 2, 5 );
+	sub array [2..5]
+	 0xf13180 len 4 [ 10 77 29 96 ]
+	
+	intarr_copy_subarray( 0xf130d0, 3, 7 );
+	sub array [3..7]
+	 0xf13180 len 5 [ 77 29 96 45 11 ]
+	
+	intarr_copy_subarray( 0xf130d0, 0, 7 );
+	sub array [0..7]
+	 0xf13180 len 8 [ 39 8 10 77 29 96 45 11 ]
+	
+	original array
+	 0xf130d0 len 28 [ 34 16 7 85 15 74 82 58 34 7 73 19 51 47 50 16 43 83 74 71 59 24 59 46 50 28 81 22 ]
+	
+	intarr_copy_subarray( 0xf130d0, 9, 24 );
+	sub array [9..24]
+	 0xf13180 len 16 [ 7 73 19 51 47 50 16 43 83 74 71 59 24 59 46 50 ]
+	
+	intarr_copy_subarray( 0xf130d0, 7, 17 );
+	sub array [7..17]
+	 0xf13180 len 11 [ 58 34 7 73 19 51 47 50 16 43 83 ]
+	
+	intarr_copy_subarray( 0xf130d0, 4, 8 );
+	sub array [4..8]
+	 0xf13180 len 5 [ 15 74 82 58 34 ]
+	
+	intarr_copy_subarray( 0xf130d0, 12, 23 );
+	sub array [12..23]
+	 0xf13180 len 12 [ 51 47 50 16 43 83 74 71 59 24 59 46 ]
+	
+	intarr_copy_subarray( 0xf130d0, 3, 18 );
+	sub array [3..18]
+	 0xf13180 len 16 [ 85 15 74 82 58 34 7 73 19 51 47 50 16 43 83 74 ]
+	
+	intarr_copy_subarray( 0xf130d0, 1, 1 );
+	sub array [1..1]
+	 0xf13180 len 1 [ 16 ]
+	
+	intarr_copy_subarray( 0xf130d0, 2, 19 );
+	sub array [2..19]
+	 0xf13180 len 18 [ 7 85 15 74 82 58 34 7 73 19 51 47 50 16 43 83 74 71 ]
+	
+	intarr_copy_subarray( 0xf130d0, 6, 24 );
+	sub array [6..24]
+	 0xf13180 len 19 [ 82 58 34 7 73 19 51 47 50 16 43 83 74 71 59 24 59 46 50 ]
+	
+	intarr_copy_subarray( 0xf130d0, 18, 22 );
+	sub array [18..22]
+	 0xf13180 len 5 [ 74 71 59 24 59 ]
+	
+	intarr_copy_subarray( 0xf130d0, 10, 22 );
+	sub array [10..22]
+	 0xf13180 len 13 [ 73 19 51 47 50 16 43 83 74 71 59 24 59 ]
+	
+	intarr_copy_subarray( 0xf130d0, 4, 9 );
+	sub array [4..9]
+	 0xf13180 len 6 [ 15 74 82 58 34 7 ]
+	
+	intarr_copy_subarray( 0xf130d0, 0, 21 );
+	sub array [0..21]
+	 0xf13180 len 22 [ 34 16 7 85 15 74 82 58 34 7 73 19 51 47 50 16 43 83 74 71 59 24 ]
+	
+	intarr_copy_subarray( 0xf130d0, 20, 24 );
+	sub array [20..24]
+	 0xf13180 len 5 [ 59 24 59 46 50 ]
+	
+	intarr_copy_subarray( 0xf130d0, 19, 27 );
+	sub array [19..27]
+	 0xf13180 len 9 [ 71 59 24 59 46 50 28 81 22 ]
+	
+	intarr_copy_subarray( 0xf130d0, 16, 20 );
+	sub array [16..20]
+	 0xf13180 len 5 [ 43 83 74 71 59 ]
+	
+	intarr_copy_subarray( 0xf130d0, 13, 17 );
+	sub array [13..17]
+	 0xf13180 len 5 [ 47 50 16 43 83 ]
+	
+	original array
+	 0xf130d0 len 22 [ 38 80 65 67 61 53 69 76 2 58 98 77 70 24 0 32 18 66 77 87 55 86 ]
+	
+	intarr_copy_subarray( 0xf130d0, 3, 15 );
+	sub array [3..15]
+	 0xf13180 len 13 [ 67 61 53 69 76 2 58 98 77 70 24 0 32 ]
+	
+	intarr_copy_subarray( 0xf130d0, 16, 17 );
+	sub array [16..17]
+	 0xf13180 len 2 [ 18 66 ]
+	
+	intarr_copy_subarray( 0xf130d0, 11, 11 );
+	sub array [11..11]
+	 0xf13180 len 1 [ 77 ]
+	
+	intarr_copy_subarray( 0xf130d0, 1, 11 );
+	sub array [1..11]
+	 0xf13180 len 11 [ 80 65 67 61 53 69 76 2 58 98 77 ]
+	
+	intarr_copy_subarray( 0xf130d0, 8, 20 );
+	sub array [8..20]
+	 0xf13180 len 13 [ 2 58 98 77 70 24 0 32 18 66 77 87 55 ]
+	
+	intarr_copy_subarray( 0xf130d0, 1, 6 );
+	sub array [1..6]
+	 0xf13180 len 6 [ 80 65 67 61 53 69 ]
+	
+	intarr_copy_subarray( 0xf130d0, 4, 17 );
+	sub array [4..17]
+	 0xf13180 len 14 [ 61 53 69 76 2 58 98 77 70 24 0 32 18 66 ]
+	
+	intarr_copy_subarray( 0xf130d0, 14, 19 );
+	sub array [14..19]
+	 0xf13180 len 6 [ 0 32 18 66 77 87 ]
+	
+	intarr_copy_subarray( 0xf130d0, 3, 10 );
+	sub array [3..10]
+	 0xf13180 len 8 [ 67 61 53 69 76 2 58 98 ]
+	
+	intarr_copy_subarray( 0xf130d0, 11, 19 );
+	sub array [11..19]
+	 0xf13180 len 9 [ 77 70 24 0 32 18 66 77 87 ]
+	
+	intarr_copy_subarray( 0xf130d0, 13, 19 );
+	sub array [13..19]
+	 0xf13180 len 7 [ 24 0 32 18 66 77 87 ]
+	
+	intarr_copy_subarray( 0xf130d0, 9, 11 );
+	sub array [9..11]
+	 0xf13180 len 3 [ 58 98 77 ]
+	
+	intarr_copy_subarray( 0xf130d0, 18, 20 );
+	sub array [18..20]
+	 0xf13180 len 3 [ 77 87 55 ]
+	
+	intarr_copy_subarray( 0xf130d0, 15, 17 );
+	sub array [15..17]
+	 0xf13180 len 3 [ 32 18 66 ]
+	
+	intarr_copy_subarray( 0xf130d0, 7, 14 );
+	sub array [7..14]
+	 0xf13180 len 8 [ 76 2 58 98 77 70 24 0 ]
+	
+	intarr_copy_subarray( 0xf130d0, 8, 17 );
+	sub array [8..17]
+	 0xf13180 len 10 [ 2 58 98 77 70 24 0 32 18 66 ]
+	intarr_copy_subarray() passed
+	Task 8 passed
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

@@ -1,0 +1,148 @@
+Testing Repo CMPT127-1157-sinanl/6 Lab 6 Task 2 at 2015-12-04 12:02:39.944957
+testing source file /home/vaughan/CMPT127-1157-sinanl/6/t2.c
+(make -f /home/vaughan/lab/6/Makefile.test t2 STUDENT="sinanl" LAB="/home/vaughan/lab/6" REPO="/home/vaughan/CMPT127-1157-sinanl/6" SANDBOX="/home/build/sandbox.sinanl.mjQlUb"> compiler.out ) >& compiler.err
+Build operations:
+	gcc -std=gnu99 -Wall -Wfatal-errors -g -I/home/vaughan/lab/6 -o t2 /home/vaughan/lab/6/test_json.c /home/vaughan/lab/6/intarr.c /home/vaughan/CMPT127-1157-sinanl/6/t2.c -lm
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	Testing normal save/load usage using your save/load pair:
+	
+	
+	Saving array len 0: intarr_save_json( 0x888010, "saved_array.0" )
+	Loading array intarr_load_json( "saved_array.0" )
+	Returned a non-NULL pointer.
+	Loaded array length 0
+	Comparing array contents...OK.
+	
+	Saving array len 655: intarr_save_json( 0x888010, "saved_array.1" )
+	Loading array intarr_load_json( "saved_array.1" )
+	Returned a non-NULL pointer.
+	Loaded array length 655
+	Comparing array contents...OK.
+	
+	Saving array len 857: intarr_save_json( 0x888010, "saved_array.2" )
+	Loading array intarr_load_json( "saved_array.2" )
+	Returned a non-NULL pointer.
+	Loaded array length 857
+	Comparing array contents...OK.
+	
+	Saving array len 798: intarr_save_json( 0x888010, "saved_array.3" )
+	Loading array intarr_load_json( "saved_array.3" )
+	Returned a non-NULL pointer.
+	Loaded array length 798
+	Comparing array contents...OK.
+	
+	Saving array len 603: intarr_save_json( 0x888010, "saved_array.4" )
+	Loading array intarr_load_json( "saved_array.4" )
+	Returned a non-NULL pointer.
+	Loaded array length 603
+	Comparing array contents...OK.
+	
+	Testing Corner cases
+	
+	intarr_save_json( NULL, "foo" );
+	intarr_save_json(): correct behaviour for NULL array
+	intarr_save_json( ia, NULL );
+	Failed to open the file for writing.
+	intarr_save_json(): correct behaviour for NULL filename
+	intarr_load_json( NULL );
+	Failed to open image file for reading
+	intarr_load_json(): correct behaviour for NULL filename
+	intarr_save_json( "non-existent-filename" );
+	Failed to open image file for reading
+	OK: correct behaviour for non-existent filename
+	
+	Testing your intarr_load_json() with some locally-generated JSON files
+	
+	Saved an array of length 9150 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 9150
+	Loaded array has the correct contents.
+	
+	Saved an array of length 7924 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 7924
+	Loaded array has the correct contents.
+	
+	Saved an array of length 3007 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 3007
+	Loaded array has the correct contents.
+	
+	Saved an array of length 6292 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 6292
+	Loaded array has the correct contents.
+	
+	Saved an array of length 5760 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 5760
+	Loaded array has the correct contents.
+	
+	Saved an array of length 2856 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 2856
+	Loaded array has the correct contents.
+	
+	Saved an array of length 2817 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 2817
+	Loaded array has the correct contents.
+	
+	Saved an array of length 4005 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 4005
+	Loaded array has the correct contents.
+	
+	Saved an array of length 8828 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 8828
+	Loaded array has the correct contents.
+	
+	Saved an array of length 3136 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 3136
+	Loaded array has the correct contents.
+	
+	Saved an array of length 5077 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 5077
+	Loaded array has the correct contents.
+	
+	Saved an array of length 6543 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 6543
+	Loaded array has the correct contents.
+	
+	Saved an array of length 5155 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 5155
+	Loaded array has the correct contents.
+	
+	Saved an array of length 8619 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 8619
+	Loaded array has the correct contents.
+	
+	Saved an array of length 4762 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 4762
+	Loaded array has the correct contents.
+	
+	Saved an array of length 3719 into test.json
+	intarr_load_json( test.json );
+	Loaded array length 3719
+	Loaded array has the correct contents.
+	
+	** No errors detected. **
+	
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

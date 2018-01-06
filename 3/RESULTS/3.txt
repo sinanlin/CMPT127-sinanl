@@ -1,0 +1,43 @@
+Testing Repo CMPT127-1157-sinanl/3 Lab 3 Task 3 at 2015-12-04 12:02:32.327343
+(make -f /home/vaughan/lab/3/Makefile.test t3 STUDENT="sinanl" LAB="/home/vaughan/lab/3" REPO="/home/vaughan/CMPT127-1157-sinanl/3" SANDBOX="/home/build/sandbox.sinanl.GmwoIW"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/lab/3/imgops_reference.c .
+	cp /home/vaughan/lab/3/imgops_reference.h .
+	cp /home/vaughan/lab/3/imgops.h .
+	cp /home/vaughan/lab/3/test.c .
+	cp /home/vaughan/CMPT127-1157-sinanl/3/imgops.c .
+	gcc -Wall -std=c99  -o t3 imgops.c imgops_reference.c test.c -lm
+build OK
+
+Unit test /home/vaughan/lab/3/testdir/t3/plain: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	flip_horizontal 	pass
+	flip_vertical 	pass
+	flip_horizontal 	pass
+	flip_vertical 	pass
+	flip_horizontal 	pass
+	flip_vertical 	pass
+	flip_horizontal 	pass
+	flip_vertical 	pass
+	flip_horizontal 	pass
+	flip_vertical 	pass
+	flip_horizontal 	pass
+	flip_vertical 	pass
+	flip_horizontal 	pass
+	flip_vertical 	pass
+	flip_horizontal 	pass
+	flip_vertical 	pass
+	flip_horizontal 	pass
+	flip_vertical 	pass
+	flip_horizontal 	pass
+	flip_vertical 	pass
+	--
+	All tests passed.
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

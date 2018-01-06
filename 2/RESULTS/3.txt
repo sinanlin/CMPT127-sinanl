@@ -1,0 +1,18 @@
+Testing Repo CMPT127-1157-sinanl/2 Lab 2 Task 3 at 2015-12-04 12:02:29.593857
+(make -f /home/vaughan/lab/2/Makefile.test t3 STUDENT="sinanl" LAB="/home/vaughan/lab/2" REPO="/home/vaughan/CMPT127-1157-sinanl/2" SANDBOX="/home/build/sandbox.sinanl.Zn0Tiq"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/CMPT127-1157-sinanl/2/reverse.c .
+	gcc -Wall -std=c99 -o t3 reverse.c /home/vaughan/lab/2/test_reverse.c -lm
+build OK
+
+Unit test default: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	Failed 0 of 1000 tests
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

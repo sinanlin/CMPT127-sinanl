@@ -1,0 +1,32 @@
+Testing Repo CMPT127-1157-sinanl/2 Lab 2 Task 8 at 2015-12-04 12:02:31.384968
+(make -f /home/vaughan/lab/2/Makefile.test t8 STUDENT="sinanl" LAB="/home/vaughan/lab/2" REPO="/home/vaughan/CMPT127-1157-sinanl/2" SANDBOX="/home/build/sandbox.sinanl.DNEj68"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/CMPT127-1157-sinanl/2/letterfreq.c .
+	gcc -Wall -std=c99 -o t8 letterfreq.c -lm
+build OK
+
+Unit test /home/vaughan/lab/2/testdir/t8/prince: 
+ Happy Prince
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/2/testdir/t8/poem: 
+ Poem
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/2/testdir/t8/aaab: 
+ aaab
+	Running Program...
+	Done. Program returned 0
+	stdout OK
+	stderr OK
+	passed.
+
+All unit tests passed. Task complete.

@@ -1,0 +1,43 @@
+Testing Repo CMPT127-1157-sinanl/3 Lab 3 Task 1 at 2015-12-04 12:02:31.743405
+(make -f /home/vaughan/lab/3/Makefile.test t1 STUDENT="sinanl" LAB="/home/vaughan/lab/3" REPO="/home/vaughan/CMPT127-1157-sinanl/3" SANDBOX="/home/build/sandbox.sinanl.FTjf4V"> compiler.out ) >& compiler.err
+Build operations:
+	cp /home/vaughan/lab/3/imgops_reference.c .
+	cp /home/vaughan/lab/3/imgops_reference.h .
+	cp /home/vaughan/lab/3/imgops.h .
+	cp /home/vaughan/lab/3/test.c .
+	cp /home/vaughan/CMPT127-1157-sinanl/3/imgops.c .
+	gcc -Wall -std=c99  -o t1 imgops.c imgops_reference.c test.c -lm
+build OK
+
+Unit test /home/vaughan/lab/3/testdir/t1/plain: 
+	Running Program...
+	Done. Program returned 0
+	stdout ---------------------------------------------------
+	min returned 5 which is the true min.	pass
+	max returned 100 which is the true max.	pass
+	min returned 12 which is the true min.	pass
+	max returned 65 which is the true max.	pass
+	min returned 12 which is the true min.	pass
+	max returned 44 which is the true max.	pass
+	min returned 16 which is the true min.	pass
+	max returned 36 which is the true max.	pass
+	min returned 12 which is the true min.	pass
+	max returned 32 which is the true max.	pass
+	min returned 5 which is the true min.	pass
+	max returned 97 which is the true max.	pass
+	min returned 2 which is the true min.	pass
+	max returned 69 which is the true max.	pass
+	min returned 4 which is the true min.	pass
+	max returned 51 which is the true max.	pass
+	min returned 20 which is the true min.	pass
+	max returned 64 which is the true max.	pass
+	min returned 14 which is the true min.	pass
+	max returned 65 which is the true max.	pass
+	--
+	All tests passed.
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.
